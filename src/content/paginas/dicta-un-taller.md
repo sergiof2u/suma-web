@@ -1,5 +1,5 @@
 ---
-title: Dictá un taller en SUMA
+title: Dicta un taller en SUMA
 descripcion: Convocatoria a talleristas de oficios, artesanías y prácticas del cuerpo y la atención, para dictar en Subachoque, Cundinamarca.
 ---
 
@@ -31,11 +31,11 @@ No alojamos cumpleaños, reuniones de empresa ni lanzamientos de producto. Ese u
 
 **Inscripciones y cobro.** El dinero del taller entra por caja de SUMA y desde ahí se le paga al tallerista.
 
-## Qué ponés vos
+## Qué pones tú
 
 El contenido, los materiales que el taller necesite y la convocatoria de tu lado. Los talleres se llenan más rápido cuando el tallerista mueve su propio grupo, y la difusión de SUMA se suma a la tuya.
 
-También la ficha del taller: nombre, foto, qué se hace, con qué se va la gente al terminar, cuánto dura, cuántos cupos y cuánto cuesta. Ese texto lo escribís vos y lo publicamos como lo mandes.
+También la ficha del taller: nombre, foto, qué se hace, con qué se va la gente al terminar, cuánto dura, cuántos cupos y cuánto cuesta. Ese texto lo escribes tú y lo publicamos como lo mandes.
 
 ## El trato
 
@@ -49,6 +49,6 @@ Febrero, septiembre y octubre son los meses más tranquilos del año en el local
 
 ## Cómo proponer un taller
 
-Escribinos por WhatsApp al 316 414 2904 con qué taller querés dictar, cuánto dura, cuántas personas, qué materiales hacen falta y qué fecha tenés en mente. Si ya lo dictaste antes, contanos dónde y mandanos fotos.
+Escríbenos por WhatsApp al 316 414 2904 con qué taller quieres dictar, cuánto dura, cuántas personas, qué materiales hacen falta y qué fecha tienes en mente. Si ya lo dictaste antes, cuéntanos dónde y mándanos fotos.
 
 Si el taller encaja, acordamos fecha, precio y difusión, y armamos la ficha.

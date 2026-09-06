@@ -17,13 +17,13 @@ El trabajo se orienta a explorar la plasticidad del metal, las pátinas, la colo
 
 **Clases individuales.** Acompañamiento uno a uno, ajustado al proyecto de cada quien. Valor por definir.
 
-## Te llevás lo que hiciste
+## Te llevas lo que hiciste
 
 Al terminar una clase, la pieza es tuya.
 
 Conviene decirlo con franqueza porque cambia la manera de pensar el gasto: un taller de un día cuesta lo que cuesta una pieza comparable de nuestra vitrina. Por un dinero parecido, alguien puede llevarse una joya hecha por nosotros, o llevarse una hecha con sus propias manos, más una tarde completa dentro de un taller de orfebrería y una idea concreta de cómo funciona el oficio.
 
-La pieza de la vitrina va a tener mejor terminado, porque la hizo alguien que lleva casi dos décadas en esto. La otra la hiciste vos, y aprendiste cómo se hace.
+La pieza de la vitrina va a tener mejor terminado, porque la hizo alguien que lleva casi dos décadas en esto. La otra la hiciste tú, y aprendiste cómo se hace.
 
 ## Quién enseña
 

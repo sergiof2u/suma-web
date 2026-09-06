@@ -25,6 +25,6 @@ Para los talleres y los cursos conviene reservar, porque los cupos son pocos.
 
 Casa El Abrazo es nuestra cabaña de alquiler, construida por Sergio en estructura metálica. Quien se aloja ahí puede tomar clases de joyería o de yoga durante su estadía; ya lo hemos hecho varias veces.
 
-## Escribinos
+## Escríbenos
 
 Por WhatsApp al 316 414 2904, o por Instagram en [@suma_en_subachoque](https://instagram.com/suma_en_subachoque).

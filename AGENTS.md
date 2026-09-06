@@ -59,8 +59,8 @@ estricta del proyecto.
 Negrillas escasas. Sin preguntas retóricas de bisagra. Sin cerrar cada sección
 con un aforismo. Pocos guiones largos. Sin anáforas repetidas.
 
-**Voseo** al dirigirse al lector: tenés, querés, podés, escribinos, contanos.
-Nunca tuteo.
+**Tuteo** al dirigirse al lector: tienes, quieres, puedes, escríbenos, cuéntanos.
+**Nunca voseo:** nada de tenés, querés, podés, escribinos, contanos.
 
 **Cada tallerista invitado conserva su voz.** El texto de su taller lo escribe
 esa persona y se publica como lo mande. SUMA no adopta el vocabulario de nadie
@@ -83,7 +83,7 @@ estudio de joyería, estudio de yoga. La tienda es cerca del 77 % del ingreso
 y es un proyecto de Alexandra; **nunca describirla como "ventas" ni como apoyo
 administrativo.**
 
-El menú vive en `src/site.ts`. "Dictá un taller en SUMA" va solo en el pie,
+El menú vive en `src/site.ts`. "Dicta un taller en SUMA" va solo en el pie,
 porque le habla a talleristas y no a clientes.
 
 ---

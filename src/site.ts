@@ -32,11 +32,11 @@ export const nav = [
   { href: '/visitar/', label: 'Visitar' },
 ] as const;
 
-// Enlaces del pie. "Dictá un taller" va solo acá: le habla a talleristas,
+// Enlaces del pie. "Dicta un taller" va solo acá: le habla a talleristas,
 // no a clientes.
 export const navPie = [
   { href: '/que-es-suma/', label: 'Qué es SUMA' },
   { href: '/resplandor/', label: 'Resplandor' },
   { href: '/sostenemos/', label: 'Lo que sostenemos' },
-  { href: '/dicta-un-taller/', label: 'Dictá un taller en SUMA' },
+  { href: '/dicta-un-taller/', label: 'Dicta un taller en SUMA' },
 ] as const;
