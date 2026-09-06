@@ -1,0 +1,77 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { proximosTalleres, parrillaSemanal, formatearFechaTaller } from '../lib/agenda';
+import { site } from '../site';
+
+const proximos = await proximosTalleres();
+const parrilla = await parrillaSemanal();
+const talleristas = await getCollection('talleristas');
+const nombre = (id?: string) => talleristas.find((t) => t.id === id)?.data.nombre;
+---
+
+<Base
+  title="Agenda"
+  description="Próximas fechas en SUMA, Subachoque: talleres, clases de joyería, yoga, meditación y cine club."
+>
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Qué viene</p>
+        <h1>Agenda</h1>
+      </div>
+
+      <h2>Próximas fechas</h2>
+      <div>
+        {proximos.map((taller) => (
+          <a class="list-item" href={`/talleres/${taller.id}/`} style="text-decoration:none; color:inherit;">
+            <div class="list-item-body">
+              <div class="list-item-meta">
+                {formatearFechaTaller(taller.data.fecha, taller.data.fechaFin)}
+                {taller.data.horario ? ` · ${taller.data.horario}` : ''}
+              </div>
+              <h3>{taller.data.title}</h3>
+              <p>
+                {taller.data.tipo}
+                {nombre(taller.data.tallerista) ? ` · con ${nombre(taller.data.tallerista)}` : ''}
+                {' · '}
+                {taller.data.precio ?? 'Valor por definir'}
+              </p>
+            </div>
+          </a>
+        ))}
+        {proximos.length === 0 && (
+          <p style="color:var(--ink-soft);">
+            No hay fechas publicadas en este momento. Lo que se programe aparece acá y en
+            <a href={`https://instagram.com/${site.instagram}`} target="_blank" rel="noopener"> Instagram</a>.
+          </p>
+        )}
+      </div>
+
+      {parrilla.length > 0 && (
+        <div style="margin-top:3.5rem;">
+          <h2>Cada semana</h2>
+          <p style="color:var(--ink-soft); max-width:60ch;">
+            Lo que se repite todas las semanas, sin fecha de inicio ni inscripción por fecha.
+          </p>
+          <table class="meta-table">
+            <tbody>
+              {parrilla.map((h) => (
+                <tr>
+                  <th style="text-transform:capitalize;">{h.data.dia}</th>
+                  <td>
+                    <strong>{h.data.actividad}</strong>{' · '}{h.data.hora}
+                    {h.data.duracion ? ` · ${h.data.duracion}` : ''}
+                    {' · '}
+                    {h.data.gratuito ? 'Gratuito' : (h.data.precio ?? 'Valor por definir')}
+                    {h.data.descripcion && <><br /><span style="color:var(--ink-soft);">{h.data.descripcion}</span></>}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+    </div>
+  </section>
+</Base>

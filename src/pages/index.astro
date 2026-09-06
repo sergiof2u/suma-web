@@ -1,0 +1,123 @@
+---
+import Base from '../layouts/Base.astro';
+import { proximosTalleres, formatearFechaTaller } from '../lib/agenda';
+import { site } from '../site';
+import { precios } from '../precios';
+
+const proximos = (await proximosTalleres()).slice(0, 4);
+
+const bloques = [
+  {
+    href: '/tienda/',
+    titulo: 'Tienda',
+    texto:
+      'Piezas de joyería hechas en nuestro taller, productos para el cuidado personal elaborados por otros artesanos y el trabajo de productores de la región. Cantidades pequeñas, materiales nobles y procesos que podemos explicar uno por uno.',
+    enlace: 'Ver la tienda',
+  },
+  {
+    href: '/joyeria/',
+    titulo: 'Estudio de joyería',
+    texto:
+      'Talleres de un día, cursos trimestrales y clases individuales, en el mismo taller donde se produce. De una clase se sale con una pieza terminada y hecha por uno mismo.',
+    enlace: 'Conocer el estudio',
+  },
+  {
+    href: '/yoga/',
+    titulo: 'Estudio de yoga y meditación',
+    texto:
+      'Clases regulares de yoga con Alexandra, formada y certificada en kundalini yoga. El grupo de meditación se reúne los martes por la mañana, es gratuito y abierto, sin marco religioso.',
+    enlace: 'Horarios y prácticas',
+  },
+  {
+    href: '/talleres/',
+    titulo: 'Talleres',
+    texto:
+      'Encuadernación, tejido, bordado, cocina y otros oficios y prácticas, casi siempre en fin de semana, dictados por talleristas invitados. Se sale con algo hecho a mano.',
+    enlace: 'Ver los talleres',
+  },
+  {
+    href: '/resplandor/',
+    titulo: 'Resplandor',
+    texto: `Ron artesanal de caña panelera, fermentado y destilado en Subachoque en pequeños lotes, sin aditivos. ${precios.resplandor.botella375} la botella de 375 ml.`,
+    enlace: 'Sobre la destilería',
+  },
+];
+---
+
+<Base>
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">{site.lugar}</p>
+      <h1>{site.nombre}</h1>
+      <p style="max-width:52ch; font-size:1.15rem;">
+        Joyeros, artistas y artesanos en un mismo lugar. Vendemos lo que hacemos, enseñamos el
+        oficio y practicamos yoga. Promovemos economías locales.
+      </p>
+      <p style="margin-top:1.5rem;">
+        <a class="btn btn--solid" href="/agenda/">Ver la agenda</a>
+        <a class="btn" href="/visitar/">Cómo llegar</a>
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid--2">
+        {bloques.map((b) => (
+          <a class="card card-link" href={b.href} style="text-decoration:none; color:inherit;">
+            <div class="card-body">
+              <h3>{b.titulo}</h3>
+              <p>{b.texto}</p>
+              <p class="card-meta">{b.enlace} →</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {proximos.length > 0 && (
+    <section class="section section--soft">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Qué viene</p>
+          <h2>Próximas fechas</h2>
+        </div>
+        <div>
+          {proximos.map((taller) => (
+            <a class="list-item" href={`/talleres/${taller.id}/`} style="text-decoration:none; color:inherit;">
+              <div class="list-item-body">
+                <div class="list-item-meta">
+                  {formatearFechaTaller(taller.data.fecha, taller.data.fechaFin)}
+                </div>
+                <h3>{taller.data.title}</h3>
+                <p>{taller.data.precio ?? 'Valor por definir'}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+        <p style="margin-top:1.5rem;"><a class="btn" href="/agenda/">Ver toda la agenda</a></p>
+      </div>
+    </section>
+  )}
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>También en SUMA</h2>
+      </div>
+      <div class="prose" style="max-width:70ch; color:var(--ink-soft);">
+        <p>
+          <strong>Fanzine.</strong> Publicación autogestionada de SUMA, de entrega gratuita.
+        </p>
+        <p><strong>Cine club.</strong> Encuentros para aprender a ver cine.</p>
+        <p><strong>Exposiciones.</strong> Muestras en el espacio y obra de artistas en las paredes.</p>
+        <p>
+          <strong>Club de lectura.</strong> Creado por SUMA, hoy en colaboración con la librería
+          Tinta y Tiempo.
+        </p>
+      </div>
+      <p style="margin-top:1.5rem;"><a class="btn" href="/sostenemos/">Lo que sostenemos</a></p>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,68 @@
+---
+import Base from '../layouts/Base.astro';
+import { parrillaSemanal } from '../lib/agenda';
+import { whatsappUrl } from '../site';
+import { precios, mostrarPrecio } from '../precios';
+
+const parrilla = (await parrillaSemanal()).filter((h) =>
+  ['yoga', 'meditación', 'meditacion'].some((k) => h.data.actividad.toLowerCase().includes(k)),
+);
+---
+
+<Base
+  title="Yoga y meditación"
+  description="Clases de kundalini yoga con Alexandra en SUMA, Subachoque, y grupo de meditación gratuito los martes."
+>
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Estudio</p>
+        <h1>Yoga y meditación</h1>
+      </div>
+
+      <div class="prose" style="max-width:70ch;">
+        <p>
+          Alexandra dirige el estudio de yoga de SUMA. Lleva una década enseñando y está formada
+          y certificada en kundalini yoga.
+        </p>
+        <p>
+          El grupo de meditación se reúne los martes por la mañana. Es gratuito y abierto, y no
+          tiene marco religioso.
+        </p>
+      </div>
+
+      {parrilla.length > 0 && (
+        <table class="meta-table" style="margin-top:2.5rem;">
+          <tbody>
+            {parrilla.map((h) => (
+              <tr>
+                <th style="text-transform:capitalize;">{h.data.dia}</th>
+                <td>
+                  <strong>{h.data.actividad}</strong>{' · '}{h.data.hora}
+                  {h.data.duracion ? ` · ${h.data.duracion}` : ''}
+                  {' · '}
+                  {h.data.gratuito ? 'Gratuito' : (h.data.precio ?? 'Valor por definir')}
+                  {h.data.descripcion && <><br /><span style="color:var(--ink-soft);">{h.data.descripcion}</span></>}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      )}
+
+      <table class="meta-table" style="margin-top:2rem;">
+        <tbody>
+          <tr><th>Clase suelta</th><td>{mostrarPrecio(precios.yoga.clasesuelta)}</td></tr>
+          <tr><th>Mensualidad</th><td>{mostrarPrecio(precios.yoga.mensualidad)}</td></tr>
+          <tr><th>Meditación de los martes</th><td>{precios.yoga.meditacionMartes}</td></tr>
+        </tbody>
+      </table>
+
+      <p style="margin-top:2.5rem;">
+        <a class="btn btn--solid" href={whatsappUrl} target="_blank" rel="noopener">
+          Preguntar por una clase
+        </a>
+      </p>
+    </div>
+  </section>
+</Base>

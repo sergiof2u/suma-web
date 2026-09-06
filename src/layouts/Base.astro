@@ -1,0 +1,111 @@
+---
+import '../styles/global.css';
+import { site, nav, navPie, whatsappUrl } from '../site';
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+}
+
+const { title, description, image } = Astro.props;
+const fullTitle = title ? `${title} — ${site.nombre}` : `${site.nombre} — ${site.tagline}`;
+const metaDesc = description ?? site.descripcion;
+const currentPath = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{fullTitle}</title>
+    <meta name="description" content={metaDesc} />
+    <link rel="canonical" href={new URL(currentPath, Astro.site)} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={metaDesc} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CO" />
+    {image && <meta property="og:image" content={new URL(image, Astro.site)} />}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="/">{site.nombre}<span>.</span></a>
+        <nav>
+          <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú">☰</button>
+          <ul class="nav-list" id="nav-list">
+            {nav.map((item) => (
+              <li>
+                <a href={item.href} aria-current={currentPath === item.href ? 'page' : undefined}>
+                  {item.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div>
+          <div class="brand">{site.nombre}<span>.</span></div>
+          <p style="max-width: 34ch; margin-top: 0.6rem;">{site.tagline}</p>
+          <p style="margin-top: 0.6rem;">{site.lugar}</p>
+        </div>
+        <div>
+          <h4>Navegación</h4>
+          <ul style="list-style:none; margin:0; padding:0; line-height:2;">
+            {nav.map((item) => (
+              <li><a href={item.href}>{item.label}</a></li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <h4>También</h4>
+          <ul style="list-style:none; margin:0; padding:0; line-height:2;">
+            {navPie.map((item) => (
+              <li><a href={item.href}>{item.label}</a></li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <h4>Contacto</h4>
+          <p style="margin:0 0 0.4rem;">
+            <a href={whatsappUrl} target="_blank" rel="noopener">
+              WhatsApp {site.whatsappVisible}
+            </a>
+          </p>
+          <p style="margin:0 0 0.4rem;">
+            <a href={`https://instagram.com/${site.instagram}`} target="_blank" rel="noopener">
+              @{site.instagram}
+            </a>
+          </p>
+          <p style="margin:0;">{site.direccion}</p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© {new Date().getFullYear()} {site.nombre}. {site.lugar}.</span>
+      </div>
+    </footer>
+
+    <script>
+      const toggle = document.getElementById('nav-toggle');
+      const list = document.getElementById('nav-list');
+      toggle?.addEventListener('click', () => list?.classList.toggle('is-open'));
+    </script>
+  </body>
+</html>

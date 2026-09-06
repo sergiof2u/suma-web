@@ -1,0 +1,87 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { formatearFechaTaller } from '../../lib/agenda';
+import { site, whatsappUrl } from '../../site';
+
+export async function getStaticPaths() {
+  const talleres = await getCollection('talleres', ({ data }) => data.publicado);
+  return talleres.map((taller) => ({
+    params: { slug: taller.id },
+    props: { taller },
+  }));
+}
+
+const { taller } = Astro.props;
+const { Content } = await render(taller);
+const d = taller.data;
+
+const tallerista = d.tallerista ? await getEntry('talleristas', d.tallerista) : undefined;
+const fecha = formatearFechaTaller(d.fecha, d.fechaFin);
+const yaPaso = (d.fechaFin ?? d.fecha) < new Date(new Date().setHours(0, 0, 0, 0));
+---
+
+<Base title={d.title} description={d.descripcion} image={d.imagen}>
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">{d.tipo}{tallerista ? ` · con ${tallerista.data.nombre}` : ''}</p>
+        <h1>{d.title}</h1>
+      </div>
+
+      {yaPaso && (
+        <p style="color:var(--ink-soft);">
+          Este taller ya se dictó. Mirá la <a href="/agenda/">agenda</a> para lo que viene.
+        </p>
+      )}
+
+      {d.imagen && (
+        <div class="article-hero">
+          <img src={d.imagen} alt={d.title} />
+        </div>
+      )}
+
+      <table class="meta-table">
+        <tbody>
+          <tr><th>Fecha</th><td>{fecha}</td></tr>
+          {d.horario && <tr><th>Horario</th><td>{d.horario}</td></tr>}
+          {d.duracion && <tr><th>Duración</th><td>{d.duracion}</td></tr>}
+          <tr><th>Lugar</th><td>{d.lugar ?? site.lugar}</td></tr>
+          <tr><th>Valor</th><td>{d.precio ?? 'Por definir'}</td></tr>
+          {d.incluye && <tr><th>Incluye</th><td>{d.incluye}</td></tr>}
+          {d.cupo && <tr><th>Cupos</th><td>{d.cupo}</td></tr>}
+        </tbody>
+      </table>
+
+      <div class="prose article">
+        <Content />
+      </div>
+
+      {tallerista && (
+        <div class="card" style="margin-top:2.5rem;">
+          <div class="card-body">
+            <p class="eyebrow">Quién lo dicta</p>
+            <h3>{tallerista.data.nombre}</h3>
+            <p style="color:var(--ink-soft);">{tallerista.data.oficio}</p>
+            {tallerista.data.bio && <p>{tallerista.data.bio}</p>}
+            {tallerista.data.instagram && (
+              <p>
+                <a href={`https://instagram.com/${tallerista.data.instagram}`} target="_blank" rel="noopener">
+                  @{tallerista.data.instagram}
+                </a>
+              </p>
+            )}
+          </div>
+        </div>
+      )}
+
+      {!yaPaso && (
+        <p style="margin-top:2.5rem;">
+          <a class="btn btn--solid" href={d.inscripcion ?? whatsappUrl} target="_blank" rel="noopener">
+            Reservar un cupo
+          </a>
+        </p>
+      )}
+    </div>
+  </section>
+</Base>
