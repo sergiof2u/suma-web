@@ -5,7 +5,7 @@ imagen: /fotos/joyeria/portada-manos-cobre.jpg
 ---
 
 <div class="article-hero">
-  <img src="/fotos/joyeria/disco-de-cobre.jpg" alt="Un disco de cobre sobre el yunque" />
+  <img src="/fotos/joyeria/martillado.jpg" alt="Levantando una pieza a martillo sobre el estaque" />
 </div>
 
 El taller está en Subachoque, Cundinamarca, dentro de SUMA. Ahí se produce y ahí se enseña, con las mismas herramientas y en las mismas mesas.
