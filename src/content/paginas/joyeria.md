@@ -1,7 +1,12 @@
 ---
 title: Estudio de joyería
 descripcion: Talleres de un día, cursos trimestrales y clases individuales de joyería en Subachoque, Cundinamarca, a una hora de Bogotá. De una clase se sale con una pieza terminada.
+imagen: /fotos/joyeria/portada-manos-cobre.jpg
 ---
+
+<div class="article-hero">
+  <img src="/fotos/joyeria/disco-de-cobre.jpg" alt="Un disco de cobre sobre el yunque" />
+</div>
 
 El taller está en Subachoque, Cundinamarca, dentro de SUMA. Ahí se produce y ahí se enseña, con las mismas herramientas y en las mismas mesas.
 
@@ -25,7 +30,22 @@ Conviene decirlo con franqueza porque cambia la manera de pensar el gasto: un ta
 
 La pieza de la vitrina va a tener mejor terminado, porque la hizo alguien que lleva casi dos décadas en esto. La otra la hiciste tú, y aprendiste cómo se hace.
 
+## Cómo se ve el proceso
+
+De un disco de metal a una pieza terminada. Recocer para que el metal ceda, martillar, levantar la forma sobre el yunque, y afinar hasta que quede.
+
+<div class="gallery">
+  <figure><img src="/fotos/joyeria/recocido.jpg" alt="Recocido con soplete" /></figure>
+  <figure><img src="/fotos/joyeria/disco-de-cobre.jpg" alt="Disco de cobre sobre el yunque" /></figure>
+  <figure><img src="/fotos/joyeria/levantado.jpg" alt="Levantando la forma a martillo" /></figure>
+  <figure><img src="/fotos/joyeria/cuchara-terminada.jpg" alt="La pieza terminada" /></figure>
+</div>
+
 ## Quién enseña
+
+<div class="article-hero">
+  <img src="/fotos/joyeria/sergio-en-la-mesa.jpg" alt="Sergio Fernández en la mesa de trabajo" />
+</div>
 
 Sergio Fernández estudió música y joyería, y ha hecho cursos de especialización en diseño biónico, esmaltes, cincelado y engaste. El estudio de la orfebrería prehispánica, en sus aspectos técnicos y simbólicos, atraviesa buena parte de su trabajo.
 

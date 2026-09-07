@@ -148,11 +148,18 @@ Los precios de un taller concreto van en el campo `precio` de su archivo.
 
 ## Imágenes
 
-Van en `src/assets/`, no en `public/`. Así Astro las comprime y genera los
-tamaños. Una foto de 4 MB sin optimizar es un problema real: mucha gente abre
-este sitio desde el celular para decidir si sube a Subachoque.
+Van en `public/fotos/<sección>/`, igual que en el portafolio personal, y se
+referencian con ruta absoluta: `/fotos/joyeria/disco-de-cobre.jpg`.
 
-`public/` queda solo para el favicon y el archivo `CNAME`.
+**Hay que reducirlas antes de guardarlas.** Astro no las toca ahí. El criterio
+que se ha venido usando: lado largo de 1600 px para fotos de contenido y
+2400 px para las de encabezado, JPEG de calidad 80, progresivo. Eso deja
+archivos de 150 a 400 KB. Los originales de la cámara pesan entre 2 y 4 MB y
+no se suben: mucha gente abre este sitio desde el celular para decidir si sube
+a Subachoque.
+
+Los originales viven fuera del repositorio, en
+`F:\OneDrive\1.SUMA LOCAL HYGGE\WEB SUMA\01 FOTOS\`.
 
 ---
 
