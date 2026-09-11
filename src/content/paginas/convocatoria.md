@@ -55,7 +55,9 @@ No alojamos cumpleaños, reuniones de empresa ni lanzamientos de producto. Ese u
 
 ### Qué ponemos nosotros
 
-**El salón, con sus mesas y su luz.** Capacidad y equipamiento, por definir.
+**El salón, con sus mesas y su luz.** Capacidad para diez personas trabajando, con mesas de trabajo y proyector.
+
+**Café y aromáticas.** De nuestra parte, para el grupo.
 
 **Público propio.** Una tienda con tránsito de fin de semana dentro del Paseo Hygge, los alumnos de las clases de joyería y de yoga, y la gente que ya ha tomado talleres acá.
 
