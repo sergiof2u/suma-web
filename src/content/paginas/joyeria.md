@@ -37,16 +37,16 @@ La pieza de la vitrina va a tener mejor terminado, porque la hizo alguien que ll
 De un disco de metal a una pieza terminada. Recocer para que el metal ceda, martillar, levantar la forma sobre el yunque, y afinar hasta que quede.
 
 <div class="gallery">
-  <figure><img src="/fotos/joyeria/recocido.jpg" alt="Recocido con soplete" /></figure>
-  <figure><img src="/fotos/joyeria/disco-de-cobre.jpg" alt="Disco de cobre sobre el yunque" /></figure>
-  <figure><img src="/fotos/joyeria/levantado.jpg" alt="Levantando la forma a martillo" /></figure>
-  <figure><img src="/fotos/joyeria/cuchara-terminada.jpg" alt="La pieza terminada" /></figure>
+  <figure><img src="/fotos/joyeria/recocido.jpg" alt="Recocido con soplete" loading="lazy" /></figure>
+  <figure><img src="/fotos/joyeria/disco-de-cobre.jpg" alt="Disco de cobre sobre el yunque" loading="lazy" /></figure>
+  <figure><img src="/fotos/joyeria/levantado.jpg" alt="Levantando la forma a martillo" loading="lazy" /></figure>
+  <figure><img src="/fotos/joyeria/cuchara-terminada.jpg" alt="La pieza terminada" loading="lazy" /></figure>
 </div>
 
 ## Quién enseña
 
 <div class="article-hero">
-  <img src="/fotos/joyeria/sergio-en-la-mesa.jpg" alt="Sergio Fernández en la mesa de trabajo" />
+  <img src="/fotos/joyeria/sergio-en-la-mesa.jpg" alt="Sergio Fernández en la mesa de trabajo" loading="lazy" />
 </div>
 
 Sergio Fernández estudió música y joyería, y ha hecho cursos de especialización en diseño biónico, esmaltes, cincelado y engaste. El estudio de la orfebrería prehispánica, en sus aspectos técnicos y simbólicos, atraviesa buena parte de su trabajo.
