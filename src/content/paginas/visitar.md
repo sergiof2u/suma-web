@@ -13,7 +13,7 @@ SUMA está en el Paseo Hygge, en Subachoque, Cundinamarca. La dirección es Cl. 
 
 Abrimos de miércoles a domingo y los festivos, de 11:00 a. m. a 6:00 p. m.
 
-El grupo de meditación se reúne los martes por la mañana y es gratuito. Los horarios de yoga están en la [página del estudio](/yoga/), y las fechas de talleres y el cine club, en la [agenda](/agenda/).
+El grupo de meditación se reúne los martes por la mañana, fuera del horario de la tienda, y es gratuito. Los horarios de yoga están en la [página del estudio](/yoga/), y las fechas de talleres y el cine club, en la [agenda](/agenda/).
 
 ## Cómo es una visita
 
@@ -23,7 +23,7 @@ Para los talleres y los cursos conviene reservar, porque los cupos son pocos.
 
 ## Quedarse el fin de semana
 
-Casa El Abrazo es nuestra cabaña de alquiler, construida por Sergio en estructura metálica. Quien se aloja ahí puede tomar clases de joyería o de yoga durante su estadía; ya lo hemos hecho varias veces. Se puede ver en [@casaelabrazo](https://www.instagram.com/casaelabrazo/?hl=en).
+Casa El Abrazo es nuestra cabaña de alquiler, construida por Sergio en estructura metálica. Quien se aloja ahí puede tomar clases de joyería o de yoga durante su estadía; ya lo hemos hecho varias veces. Se puede ver en [@casaelabrazo](https://www.instagram.com/casaelabrazo/).
 
 ## Escríbenos
 

@@ -61,7 +61,7 @@ El taller de joyería produce piezas y forma alumnos, en cursos trimestrales, cl
 
 Los talleres de fin de semana abren el espacio a otros oficios y a otras prácticas, con talleristas invitados que traen lo suyo: encuadernación, tejido, bordado, cocina, trabajo con el cuerpo y la conciencia. Cada quien enseña a su manera y con sus palabras. Lo que pedimos es que se haga algo con las manos, con el cuerpo o con la atención.
 
-El cine club propone aprender a mirar. Se reúne los jueves de 6:00 a 7:00 p. m.; cuesta {{cineClub}}, y a quien le interese se le suma al grupo de WhatsApp.
+El cine club propone aprender a mirar. El día, la hora y el valor están en la [agenda](/agenda/).
 
 El espacio se transforma para exposiciones, y en el resto del tiempo las paredes sostienen obra de artistas que trabajan cerca.
 
