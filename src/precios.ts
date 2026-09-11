@@ -21,8 +21,8 @@ export const precios = {
     claseIndividual: 'De tres a cuatro horas, 280.000',
   },
   yoga: {
-    clasesuelta: null as string | null,
-    mensualidad: null as string | null,
+    clasesuelta: '25.000',
+    mensualidad: '80.000',
     meditacionMartes: 'Gratuito',
   },
   tienda: {
