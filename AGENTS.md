@@ -144,6 +144,19 @@ pasó. La lógica está en `src/lib/agenda.ts`.
 `src/precios.ts`. Aparecen en varias páginas y se traen desde ahí. Cambiar un
 precio es cambiar una línea de ese archivo.
 
+En una página `.astro` se importa `precios` y se imprime el campo.
+
+En un archivo Markdown, que no puede importar, se escribe la marca
+`{{joyeria.tallerDeUnDia}}`: el complemento `src/lib/precios-md.mjs` la cambia
+por el valor al compilar. **El precio se escribe solo en `src/precios.ts`; en el
+texto va la marca, nunca la cifra.**
+
+Antes de cada compilación corre `scripts/verificar-precios.mjs` (está encadenado
+en `npm run build`). Si una marca apunta a una ruta que no existe, el build se
+detiene y dice cuál es la línea. La razón: el procesador de Markdown reporta ese
+error pero Astro termina igual y deja el párrafo afuera, así que sin esta
+comprobación un precio mal escrito desaparece de la página sin avisar.
+
 Los precios de un taller concreto van en el campo `precio` de su archivo.
 
 ---

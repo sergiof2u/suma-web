@@ -16,11 +16,11 @@ El trabajo se orienta a explorar la plasticidad del metal, las pátinas, la colo
 
 ## Formatos
 
-**Talleres de un día.** Una jornada de tres a cuatro horas alrededor de la mesa de trabajo. Se entra sin saber nada y se sale con una pieza terminada. 280.000 por persona, o 500.000 para dos.
+**Talleres de un día.** Una jornada de tres a cuatro horas alrededor de la mesa de trabajo. Se entra sin saber nada y se sale con una pieza terminada. {{joyeria.tallerDeUnDia}}.
 
-**Cursos trimestrales.** Para quien quiere aprender el oficio con continuidad y construir criterio con el tiempo. El valor se acuerda con cada estudiante.
+**Cursos trimestrales.** Para quien quiere aprender el oficio con continuidad y construir criterio con el tiempo. {{joyeria.cursoTrimestral}}.
 
-**Clases individuales.** Acompañamiento uno a uno, ajustado al proyecto de cada quien. De tres a cuatro horas, 280.000.
+**Clases individuales.** Acompañamiento uno a uno, ajustado al proyecto de cada quien. {{joyeria.claseIndividual}}.
 
 ## Te llevas lo que hiciste
 
@@ -28,7 +28,7 @@ Al terminar una clase, la pieza es tuya.
 
 Conviene decirlo con franqueza porque cambia la manera de pensar la inversión: un taller de un día cuesta algo parecido a una pieza comparable en nuestra vitrina. Por un dinero parecido, alguien puede llevarse una joya hecha por nosotros, o llevarse una hecha con sus propias manos, más una tarde completa dentro de un taller de orfebrería y una idea concreta de cómo funciona el oficio.
 
-La pieza de la vitrina va a tener mejor terminado, porque la hizo alguien que lleva casi tres décadas en el oficio. La otra la hiciste tú, y aprendiste cómo se hace.
+La pieza de la vitrina va a tener mejor terminado, porque la hizo alguien que lleva más de tres décadas en el oficio. La otra la hiciste tú, y aprendiste cómo se hace.
 
 ## Cómo se ve el proceso
 
@@ -49,6 +49,6 @@ De un disco de metal a una pieza terminada. Recocer para que el metal ceda, mart
 
 Sergio Fernández estudió música y joyería, y ha hecho cursos de especialización en diseño biónico, esmaltes, cincelado y engaste. El estudio de la orfebrería prehispánica, en sus aspectos técnicos y simbólicos, atraviesa buena parte de su trabajo.
 
-Ha vivido del oficio cerca de tres décadas, participando en ferias, eventos y exposiciones de arte y artesanía en Colombia y en el exterior. Ha dictado cursos de pátinas y de fundición prehispánica y forja en la Escuela Pamela de la Fuente de Santiago de Chile, en Materia Prima de Bogotá y en Estudio Joya de Buenos Aires.
+Ha vivido del oficio desde 1994, más de tres décadas dedicadas a la orfebrería, participando en ferias, eventos y exposiciones de arte y artesanía en Colombia y en el exterior. Ha dictado cursos de pátinas y de fundición prehispánica y forja en la Escuela Pamela de la Fuente de Santiago de Chile, en Materia Prima de Bogotá y en Estudio Joya de Buenos Aires.
 
 Sobre enseñar, lo dice él mismo: transmitir el conocimiento aprendido es un placer, un compromiso con los maestros y la tradición del oficio, y un deber con las generaciones que vienen.

@@ -7,7 +7,8 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "verificar": "node scripts/verificar-precios.mjs",
+    "build": "node scripts/verificar-precios.mjs && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
