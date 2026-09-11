@@ -27,7 +27,7 @@ La tienda trabaja en consignación. Dejas tus piezas, se exhiben, y se te paga p
 
 ### Qué pones tú
 
-Las piezas, los datos de cada una —material, medidas, cuidado— y el precio que pides por tu trabajo. El precio de venta al público se acuerda contigo.
+Las piezas, los datos de cada una (material, medidas, cuidado) y el precio que pides por tu trabajo. El precio de venta al público se acuerda contigo.
 
 También la reposición de lo que se venda, según lo que puedas producir.
 
@@ -43,15 +43,7 @@ Por el salón ya han pasado talleres de encuadernación, bordado, tejido, chi ku
 
 ### Qué buscamos
 
-Un taller entra si las tres respuestas son que sí:
-
-- Se hace algo con las manos, con el cuerpo o con la atención.
-- Quien viene podría volver a SUMA por otra cosa.
-- Lo podemos publicar en nuestra cuenta sin que desentone con el resto.
-
-Caben artesanías, manualidades, oficios, prácticas del cuerpo y de la atención, talleres de corte espiritual, música y performance.
-
-No alojamos cumpleaños, reuniones de empresa ni lanzamientos de producto. Ese uso no tiene relación con lo que hacemos acá.
+Talleres de artesanías, manualidades, oficios, prácticas del cuerpo y de la atención, y talleres de corte espiritual.
 
 ### Qué ponemos nosotros
 
@@ -63,7 +55,7 @@ No alojamos cumpleaños, reuniones de empresa ni lanzamientos de producto. Ese u
 
 **Difusión.** El taller se publica en nuestra cuenta de Instagram, con casi tres mil seguidores entre Subachoque y Bogotá, y en el fanzine cuando las fechas coinciden.
 
-**Inscripciones y cobro.** El dinero del taller entra por caja de SUMA y desde ahí se le paga al tallerista.
+**Inscripciones y cobro.** El dinero del taller entra por caja de SUMA o va directamente a los talleristas.
 
 ### Qué pones tú
 
@@ -73,9 +65,7 @@ También la ficha del taller: nombre, foto, qué se hace, con qué se va la gent
 
 ### El trato
 
-Las condiciones económicas están en definición y se acuerdan al proponer el taller.
-
-Los talleres fuera del horario en que estamos abiertos se manejan distinto. Hay talleristas con llave que manejan su propio grupo y entran cuando les sirve; esa modalidad está abierta a quien ya haya dictado acá.
+Las condiciones económicas se acuerdan al proponer el taller.
 
 ### Cuándo hay espacio
 
