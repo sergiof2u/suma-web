@@ -66,10 +66,14 @@ for (const archivo of archivos) {
     if (declarada) {
       clavesVistas += 1;
       const clave = declarada[1].replace(/^["']|["']$/g, '');
-      const valor = precios[clave];
-      if (typeof valor !== 'string') {
+      const valor = buscar(precios, clave);
+      // Un precio en `null` es válido: se publica como «Precio por definir».
+      // Lo que no vale es una ruta que no existe, ni apuntar a un grupo entero.
+      if (valor === undefined) {
+        problemas.push(`${nombre}:${linea + 1} → precioClave: ${clave} no existe en src/precios.ts`);
+      } else if (valor !== null && typeof valor === 'object') {
         problemas.push(
-          `${nombre}:${linea + 1} → precioClave: ${clave} no es un precio con valor en src/precios.ts`
+          `${nombre}:${linea + 1} → precioClave: ${clave} es un grupo de precios, no un precio`
         );
       }
     }
