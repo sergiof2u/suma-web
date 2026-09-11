@@ -5,9 +5,9 @@
   --ink: #24201c;
   --ink-soft: #5a524a;
   --line: #e6ddcf;
-  --accent: #a6792e;
-  --accent-strong: #8a5f1f;
-  --accent-soft: #f0e6d2;
+  --accent: #2dba93;
+  --accent-strong: #1c735b;
+  --accent-soft: #e2f4ee;
   --radius: 2px;
   --serif: 'Cormorant Garamond', 'Georgia', serif;
   --sans: 'Jost', 'Segoe UI', system-ui, sans-serif;
@@ -75,6 +75,10 @@ h3 { font-size: 1.35rem; }
   font-weight: 500;
 }
 
+.hero .eyebrow,
+.hero .btn { border-color: var(--accent); color: var(--accent); }
+.hero .btn:hover { background: var(--accent); color: #16302a; border-color: var(--accent); }
+
 .section {
   padding: 5rem 0;
 }
@@ -123,8 +127,10 @@ h3 { font-size: 1.35rem; }
   height: 46px;
   width: auto;
 }
+.site-footer .brand-logo { height: 42px; }
 @media (max-width: 560px) {
   .brand-logo { height: 38px; }
+  .site-footer .brand-logo { height: 36px; }
 }
 
 .nav-list {
