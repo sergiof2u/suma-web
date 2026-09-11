@@ -1,10 +1,10 @@
 :root {
-  --bg: #faf7f2;
-  --bg-soft: #f3eee6;
+  --bg: #fdf0ec;
+  --bg-soft: #fbe6de;
   --surface: #ffffff;
   --ink: #24201c;
   --ink-soft: #5a524a;
-  --line: #e6ddcf;
+  --line: #eddcd4;
   --accent: #2dba93;
   --accent-strong: #1c735b;
   --accent-soft: #e2f4ee;
@@ -77,6 +77,7 @@ h3 { font-size: 1.35rem; }
 
 .hero .eyebrow,
 .hero .btn { border-color: var(--accent); color: var(--accent); }
+.hero .btn--light { background: var(--accent); border-color: var(--accent); color: #16302a; }
 .hero .btn:hover { background: var(--accent); color: #16302a; border-color: var(--accent); }
 
 .section {
@@ -100,7 +101,7 @@ h3 { font-size: 1.35rem; }
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(250, 247, 242, 0.92);
+  background: rgba(253, 240, 236, 0.92);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line);
 }
@@ -171,7 +172,7 @@ h3 { font-size: 1.35rem; }
   align-items: center;
   overflow: hidden;
   background: var(--ink);
-  color: var(--bg);
+  color: #fdf8f4;
 }
 .hero-media {
   position: absolute;
@@ -181,12 +182,14 @@ h3 { font-size: 1.35rem; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.45;
+  opacity: 0.82;
 }
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(20,16,12,0.25), rgba(20,16,12,0.75));
+  background:
+    linear-gradient(100deg, rgba(20, 16, 12, 0.70) 0%, rgba(20, 16, 12, 0.42) 45%, rgba(20, 16, 12, 0.10) 100%),
+    linear-gradient(180deg, rgba(20, 16, 12, 0.08), rgba(20, 16, 12, 0.30));
 }
 .hero .container {
   position: relative;
