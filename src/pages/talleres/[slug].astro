@@ -1,7 +1,7 @@
 ---
 import { getCollection, getEntry, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import { formatearFechaTaller } from '../../lib/agenda';
+import { formatearFechaTaller, hoy } from '../../lib/agenda';
 import { site, whatsappUrl } from '../../site';
 
 export async function getStaticPaths() {
@@ -18,7 +18,7 @@ const d = taller.data;
 
 const tallerista = d.tallerista ? await getEntry('talleristas', d.tallerista) : undefined;
 const fecha = formatearFechaTaller(d.fecha, d.fechaFin);
-const yaPaso = (d.fechaFin ?? d.fecha) < new Date(new Date().setHours(0, 0, 0, 0));
+const yaPaso = (d.fechaFin ?? d.fecha) < hoy();
 ---
 
 <Base title={d.title} description={d.descripcion} image={d.imagen}>

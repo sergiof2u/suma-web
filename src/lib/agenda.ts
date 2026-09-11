@@ -20,12 +20,14 @@ export function precioDeHorario(h: Horario): string {
   return 'Valor por definir';
 }
 
-// El día de hoy a medianoche. Un taller que ocurre hoy sigue siendo próximo
-// hasta que termina el día.
-function hoy(): Date {
-  const d = new Date();
-  d.setHours(0, 0, 0, 0);
-  return d;
+// El día de hoy a medianoche, en UTC.
+//
+// Las fechas de los talleres son días del calendario, sin hora, y Astro las
+// lee como medianoche UTC. Compararlas contra la medianoche local corre un día
+// todo: un taller del sábado 26 aparecía como viernes 25. Todo se hace en UTC.
+export function hoy(): Date {
+  const ahora = new Date();
+  return new Date(Date.UTC(ahora.getUTCFullYear(), ahora.getUTCMonth(), ahora.getUTCDate()));
 }
 
 // La fecha con la que un taller deja de ser próximo: la de cierre si el
@@ -80,6 +82,7 @@ export function formatearFechaTaller(fecha: Date, fechaFin?: Date): string {
     day: 'numeric',
     month: 'long',
     year: 'numeric',
+    timeZone: 'UTC',
   };
   const inicio = fecha.toLocaleDateString('es-CO', opciones);
   if (!fechaFin) return inicio;

@@ -123,8 +123,8 @@ El cuerpo del Markdown es el texto largo del taller.
 
 ### horarios
 
-`actividad`, `dia`, `hora`, `duracion`, `lugar`, `precio`, `gratuito`,
-`descripcion`, `orden`.
+`actividad`, `dia`, `hora`, `duracion`, `lugar`, `precio`, `precioClave`,
+`gratuito`, `descripcion`, `orden`.
 
 Es para lo que se repite cada semana: yoga, meditación de los martes, cine
 club. **No crear fichas de taller para actividades recurrentes.**
