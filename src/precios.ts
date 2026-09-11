@@ -21,9 +21,6 @@ export const precios = {
     joyeriaDesde: null as string | null,
     otrosOficiosDesde: null as string | null,
   },
-  resplandor: {
-    botella375: '$45.000',
-  },
   cineClub: null as string | null,
 } as const;
 

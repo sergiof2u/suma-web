@@ -2,7 +2,6 @@
 import Base from '../layouts/Base.astro';
 import { proximosTalleres, formatearFechaTaller } from '../lib/agenda';
 import { site } from '../site';
-import { precios } from '../precios';
 
 const proximos = (await proximosTalleres()).slice(0, 4);
 
@@ -34,12 +33,6 @@ const bloques = [
     texto:
       'Encuadernación, tejido, bordado, cocina y otros oficios y prácticas, casi siempre en fin de semana, dictados por talleristas invitados. Se sale con algo hecho a mano.',
     enlace: 'Ver los talleres',
-  },
-  {
-    href: '/resplandor/',
-    titulo: 'Resplandor',
-    texto: `Ron artesanal de caña panelera, fermentado y destilado en Subachoque en pequeños lotes, sin aditivos. ${precios.resplandor.botella375} la botella de 375 ml.`,
-    enlace: 'Sobre la destilería',
   },
 ];
 ---

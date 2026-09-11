@@ -36,7 +36,6 @@ export const nav = [
 // no a clientes.
 export const navPie = [
   { href: '/que-es-suma/', label: 'Qué es SUMA' },
-  { href: '/resplandor/', label: 'Resplandor' },
   { href: '/sostenemos/', label: 'Lo que sostenemos' },
   { href: '/dicta-un-taller/', label: 'Dicta un taller en SUMA' },
 ] as const;
