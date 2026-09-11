@@ -39,7 +39,9 @@ const currentPath = Astro.url.pathname;
   <body>
     <header class="site-header">
       <div class="container">
-        <a class="brand" href="/">{site.nombre}<span>.</span></a>
+        <a class="brand" href="/">
+          <img class="brand-logo" src="/logo-suma.png" alt={site.nombre} />
+        </a>
         <nav>
           <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú">☰</button>
           <ul class="nav-list" id="nav-list">

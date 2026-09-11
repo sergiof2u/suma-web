@@ -118,6 +118,14 @@ h3 { font-size: 1.35rem; }
 }
 .brand:hover { text-decoration: none; }
 .brand span { color: var(--accent-strong); }
+.brand-logo {
+  display: block;
+  height: 46px;
+  width: auto;
+}
+@media (max-width: 560px) {
+  .brand-logo { height: 38px; }
+}
 
 .nav-list {
   display: flex;
