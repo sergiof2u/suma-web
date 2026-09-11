@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
-import { proximosTalleres, parrillaSemanal, formatearFechaTaller } from '../lib/agenda';
+import { proximosTalleres, parrillaSemanal, formatearFechaTaller, precioDeHorario } from '../lib/agenda';
 import { site } from '../site';
 
 const proximos = await proximosTalleres();
@@ -63,7 +63,7 @@ const nombre = (id?: string) => talleristas.find((t) => t.id === id)?.data.nombr
                     <strong>{h.data.actividad}</strong>{' · '}{h.data.hora}
                     {h.data.duracion ? ` · ${h.data.duracion}` : ''}
                     {' · '}
-                    {h.data.gratuito ? 'Gratuito' : (h.data.precio ?? 'Valor por definir')}
+                    {precioDeHorario(h)}
                     {h.data.descripcion && <><br /><span style="color:var(--ink-soft);">{h.data.descripcion}</span></>}
                   </td>
                 </tr>

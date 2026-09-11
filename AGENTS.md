@@ -159,6 +159,12 @@ comprobación un precio mal escrito desaparece de la página sin avisar.
 
 Los precios de un taller concreto van en el campo `precio` de su archivo.
 
+Una actividad que se repite (`src/content/horarios/`) puede declarar
+`precioClave` con el nombre del campo de `src/precios.ts`, y el valor se lee de
+ahí al compilar. Es lo que hace el cine club con `precioClave: cineClub`. Se
+prefiere eso a volver a escribir la cifra en el archivo de la actividad: la
+misma cifra en dos lados se desincroniza.
+
 ---
 
 ## Imágenes

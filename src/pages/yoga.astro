@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { parrillaSemanal } from '../lib/agenda';
+import { parrillaSemanal, precioDeHorario } from '../lib/agenda';
 import { whatsappUrl } from '../site';
 import { precios, mostrarPrecio } from '../precios';
 
@@ -53,7 +53,7 @@ const parrilla = (await parrillaSemanal()).filter((h) =>
                   <strong>{h.data.actividad}</strong>{' · '}{h.data.hora}
                   {h.data.duracion ? ` · ${h.data.duracion}` : ''}
                   {' · '}
-                  {h.data.gratuito ? 'Gratuito' : (h.data.precio ?? 'Valor por definir')}
+                  {precioDeHorario(h)}
                   {h.data.descripcion && <><br /><span style="color:var(--ink-soft);">{h.data.descripcion}</span></>}
                 </td>
               </tr>

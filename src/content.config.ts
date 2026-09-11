@@ -62,6 +62,9 @@ const horarios = defineCollection({
     duracion: z.string().optional(),
     lugar: z.string().optional(),
     precio: z.string().optional(),
+    // Nombre del campo en src/precios.ts, para no repetir la cifra acá.
+    // Ver AGENTS.md, «Los precios viven en un solo lugar».
+    precioClave: z.string().optional(),
     // Lo gratuito se nombra gratuito, siempre y solo cuando lo es.
     gratuito: z.boolean().default(false),
     descripcion: z.string().optional(),

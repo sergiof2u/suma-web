@@ -1,6 +1,24 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
+import { precios, mostrarPrecio } from '../precios';
 
 export type Taller = CollectionEntry<'talleres'>;
+export type Horario = CollectionEntry<'horarios'>;
+
+// Lo que cuesta una actividad que se repite.
+//
+// Lo gratuito se nombra gratuito, siempre y solo cuando lo es. El valor puede
+// estar escrito en el archivo de la actividad o, mejor, vivir una sola vez en
+// src/precios.ts: para eso el archivo declara `precioClave` con el nombre del
+// campo, y así la misma cifra no queda escrita en dos lugares.
+export function precioDeHorario(h: Horario): string {
+  if (h.data.gratuito) return 'Gratuito';
+  if (h.data.precio) return h.data.precio;
+  if (h.data.precioClave) {
+    const valor = (precios as unknown as Record<string, unknown>)[h.data.precioClave];
+    if (typeof valor === 'string') return mostrarPrecio(valor);
+  }
+  return 'Valor por definir';
+}
 
 // El día de hoy a medianoche. Un taller que ocurre hoy sigue siendo próximo
 // hasta que termina el día.
