@@ -5,7 +5,7 @@ descripcion: Tienda de joyería artesanal y productos de artesanos y productores
 
 En SUMA hay una tienda de productos artesanales. Conviven ahí las piezas de joyería que salen de nuestro taller y el trabajo de artesanos y productores de la región, elegidos uno por uno.
 
-La tienda la dirige Alexandra, y es un proyecto suyo: la selección, la relación con cada artesano que deja su trabajo acá, y el criterio de qué producto tiene sentido en este lugar y a qué precio. Nada de lo que está en la vitrina llegó por catálogo.
+La tienda la lleva SUMA, como el taller y el estudio de yoga: la selección, la relación con cada artesano que deja su trabajo acá, y el criterio de qué producto tiene sentido en este lugar y a qué precio. Nada de lo que está en la vitrina llegó por catálogo.
 
 Lo que hay cambia todo el tiempo. Trabajamos en cantidades pequeñas: una pieza se vende, se hace de nuevo, a veces distinta. Otras aparecen porque alguien del territorio nos mostró algo que valía la pena tener. La selección se revisa seguido, y lo que deja de tener sentido sale para darle lugar a otra cosa.
 
