@@ -6,6 +6,8 @@ con Astro, publicado gratis en GitHub Pages con despliegue automático en
 
 Estas instrucciones aplican a cualquier IA que trabaje en este repositorio.
 
+Las reglas del negocio (qué es SUMA, modelo de tres capas, orden de ingresos, estacionalidad) viven en el vault de Obsidian, en `03 SUMA/CLAUDE.md`. Este archivo mantiene las reglas de redacción y la parte técnica del sitio; ante una discrepancia, manda el vault.
+
 ---
 
 ## Cómo se actualiza el sitio
