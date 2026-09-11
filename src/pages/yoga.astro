@@ -48,7 +48,7 @@ const parrilla = (await parrillaSemanal()).filter((h) =>
           <tbody>
             {parrilla.map((h) => (
               <tr>
-                <th style="text-transform:capitalize;">{h.data.dia}</th>
+                <th>{h.data.dia}</th>
                 <td>
                   <strong>{h.data.actividad}</strong>{' · '}{h.data.hora}
                   {h.data.duracion ? ` · ${h.data.duracion}` : ''}

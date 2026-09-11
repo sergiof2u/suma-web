@@ -418,15 +418,31 @@ h3 { font-size: 1.35rem; }
   margin-top: 2.5rem;
   padding-top: 1.5rem;
   font-size: 0.92rem;
+  width: 100%;
+  border-collapse: collapse;
 }
-.meta-table div {
-  display: grid;
-  grid-template-columns: 160px 1fr;
-  gap: 1rem;
-  padding: 0.4rem 0;
+.meta-table th,
+.meta-table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.45rem 1.5rem 0.45rem 0;
+  border-bottom: 1px solid var(--line);
 }
-.meta-table dt { font-weight: 500; color: var(--ink); text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.78rem; }
-.meta-table dd { margin: 0; color: var(--ink-soft); }
+.meta-table tr:last-child th,
+.meta-table tr:last-child td {
+  border-bottom: none;
+}
+.meta-table th {
+  width: 160px;
+  font-weight: 500;
+  color: var(--ink);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.78rem;
+}
+.meta-table td {
+  color: var(--ink-soft);
+}
 
 /* Contact form */
 .contact-grid {
@@ -524,6 +540,33 @@ h3 { font-size: 1.35rem; }
   .list-item { grid-template-columns: 1fr; gap: 1rem; }
   .list-item-media { aspect-ratio: 16 / 10; }
   .contact-grid { grid-template-columns: 1fr; gap: 1rem; }
+}
+
+/* En pantalla angosta la etiqueta de la tabla pasa arriba del valor: a 160 px
+   fijos se comía media pantalla y el texto quedaba en tiras de dos palabras. */
+@media (max-width: 560px) {
+  .meta-table th,
+  .meta-table td {
+    display: block;
+    width: auto;
+    padding-right: 0;
+    border-bottom: none;
+  }
+  .meta-table th {
+    margin-top: 1.25rem;
+    padding-bottom: 0;
+    border-top: 1px solid var(--line);
+    padding-top: 0.75rem;
+  }
+  .meta-table tr:first-child th {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0.25rem;
+  }
+  .meta-table td {
+    padding-top: 0.1rem;
+    padding-bottom: 0.4rem;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
