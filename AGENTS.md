@@ -85,8 +85,8 @@ estudio de joyería, estudio de yoga. La tienda es cerca del 77 % del ingreso
 y es un proyecto de Alexandra; **nunca describirla como "ventas" ni como apoyo
 administrativo.**
 
-El menú vive en `src/site.ts`. "Dicta un taller en SUMA" va solo en el pie,
-porque le habla a talleristas y no a clientes.
+El menú vive en `src/site.ts`. La convocatoria para artesanos y talleristas va
+solo en el pie, porque les habla a ellos y no a clientes.
 
 ---
 
