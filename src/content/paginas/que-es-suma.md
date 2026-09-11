@@ -39,7 +39,7 @@ Esto es un taller donde se trabaja, una tienda que vende y un estudio donde se e
 
 Se pasa bien, y esa es buena parte de lo que ofrecemos: una tarde larga en una mesa de trabajo, con tiempo para equivocarse y sin afán. El gusto viene de hacer algo con las manos y llevárselo.
 
-Hay dos excepciones, y las sostenemos con gusto: el fanzine se entrega gratis, y el grupo de meditación de los martes no tiene costo.
+Sostenemos algunos proyectos comunitarios de forma gratuita: el fanzine se entrega sin costo y la meditación de los martes no se cobra.
 
 ## Una economía regenerativa
 
@@ -61,7 +61,9 @@ El taller de joyería produce piezas y forma alumnos, en cursos trimestrales, cl
 
 Los talleres de fin de semana abren el espacio a otros oficios y a otras prácticas, con talleristas invitados que traen lo suyo: encuadernación, tejido, bordado, cocina, trabajo con el cuerpo y la conciencia. Cada quien enseña a su manera y con sus palabras. Lo que pedimos es que se haga algo con las manos, con el cuerpo o con la atención.
 
-El cine club propone aprender a mirar. El espacio se transforma para exposiciones, y en el resto del tiempo las paredes sostienen obra de artistas que trabajan cerca.
+El cine club propone aprender a mirar. Se reúne los jueves de 6:00 a 7:00 p. m.; cuesta {{cineClub}}, y a quien le interese se le suma al grupo de WhatsApp.
+
+El espacio se transforma para exposiciones, y en el resto del tiempo las paredes sostienen obra de artistas que trabajan cerca.
 
 Algunas cosas que empezaron acá siguieron su camino en otro lugar. El club de lectura nació en SUMA con la idea de crear un espacio dialógico en lugar de una cátedra, y hoy se reúne en la librería Tinta y Tiempo, en el Paseo Hygge, que es el sitio natural para un club de lectura. Sigue siendo parte del proyecto, ahora en colaboración.
 

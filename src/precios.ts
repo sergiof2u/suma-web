@@ -29,7 +29,7 @@ export const precios = {
     joyeriaDesde: null as string | null,
     otrosOficiosDesde: null as string | null,
   },
-  cineClub: null as string | null,
+  cineClub: '20.000 la sesión, u 80.000 el mes',
 } as const;
 
 export function mostrarPrecio(valor: string | null | undefined): string {

@@ -36,6 +36,5 @@ export const nav = [
 // talleristas, no a clientes.
 export const navPie = [
   { href: '/que-es-suma/', label: 'Qué es SUMA' },
-  { href: '/sostenemos/', label: 'Lo que sostenemos' },
   { href: '/convocatoria/', label: 'Convocatoria para artesanos y talleristas' },
 ] as const;
