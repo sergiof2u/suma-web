@@ -16,7 +16,6 @@ export const site = {
   // Ubicación
   lugar: 'Paseo Hygge, Subachoque, Cundinamarca',
   direccion: 'Cl. 4 #4-58, Local 106, Subachoque, Cundinamarca',
-  maps: 'https://www.google.com/maps/search/?api=1&query=Suma+Cl+4+4-58+Subachoque',
 } as const;
 
 export const whatsappUrl = `https://wa.me/${site.whatsapp}`;

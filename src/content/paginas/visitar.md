@@ -1,19 +1,19 @@
 ---
 title: Visitar y contacto
-descripcion: Cómo llegar a SUMA en Subachoque, Cundinamarca, desde Bogotá. Horarios, contacto y dónde quedarse el fin de semana.
+descripcion: Cómo llegar a SUMA en Subachoque, Cundinamarca, a 40 kilómetros de Bogotá. Horarios, contacto y dónde quedarse el fin de semana.
 ---
 
 ## Dónde estamos
 
-SUMA está en el Paseo Hygge, en Subachoque, Cundinamarca. La dirección es Cl. 4 #4-58, Local 106.
+SUMA está en el Paseo Hygge, en Subachoque, Cundinamarca. La dirección es Cl. 4 #4-58, Local 106, a **40 kilómetros de Bogotá**.
 
-Ruta y tiempo desde Bogotá, por definir.
+[Ver la ubicación en Google](https://share.google/C4EpS4eDRcIz4K9mY).
 
 ## Horarios
 
-Días y horas de apertura, por definir.
+Abrimos de miércoles a domingo y los festivos, de 11:00 a. m. a 6:00 p. m.
 
-El grupo de meditación se reúne los martes por la mañana y es gratuito. Los horarios de yoga están en la [página del estudio](/yoga/), y las fechas de talleres en la [agenda](/agenda/).
+El grupo de meditación se reúne los martes por la mañana y es gratuito. Los horarios de yoga están en la [página del estudio](/yoga/), y las fechas de talleres y el cine club, en la [agenda](/agenda/).
 
 ## Cómo es una visita
 
@@ -23,7 +23,7 @@ Para los talleres y los cursos conviene reservar, porque los cupos son pocos.
 
 ## Quedarse el fin de semana
 
-Casa El Abrazo es nuestra cabaña de alquiler, construida por Sergio en estructura metálica. Quien se aloja ahí puede tomar clases de joyería o de yoga durante su estadía; ya lo hemos hecho varias veces.
+Casa El Abrazo es nuestra cabaña de alquiler, construida por Sergio en estructura metálica. Quien se aloja ahí puede tomar clases de joyería o de yoga durante su estadía; ya lo hemos hecho varias veces. Se puede ver en [@casaelabrazo](https://www.instagram.com/casaelabrazo/?hl=en).
 
 ## Escríbenos
 
