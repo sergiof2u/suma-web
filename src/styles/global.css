@@ -201,6 +201,15 @@ h3 { font-size: 1.35rem; }
   max-width: 14ch;
   margin-bottom: 0.35em;
 }
+.hero-logo {
+  max-width: none;
+  margin: 0.2rem 0 0.9rem;
+}
+.hero-logo img {
+  width: min(360px, 78vw);
+  height: auto;
+  filter: brightness(0) invert(1);
+}
 .hero .tagline {
   font-size: 1.2rem;
   font-weight: 300;
