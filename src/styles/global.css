@@ -389,6 +389,12 @@ h3 { font-size: 1.35rem; }
 .article-hero {
   margin: 2rem 0 2.5rem;
 }
+/* Un retrato cuya copia no da para el ancho completo de la columna: se muestra
+   a su tamaño real, centrado, en vez de estirarlo y pixelarlo. */
+.article-hero--retrato {
+  max-width: 300px;
+  margin: 2rem auto 2.5rem;
+}
 .article-hero img {
   width: 100%;
   border-radius: var(--radius);

@@ -25,6 +25,10 @@ Por eso las clases no son un ingreso adicional al taller: son parte de lo que el
 
 SUMA lo fundaron Alexandra Bula y Sergio Fernández, y son ellos quienes lo sostienen día a día. Los dos vienen de la joyería, y ahí empezó todo.
 
+<div class="article-hero article-hero--retrato">
+  <img src="/fotos/retratos/sergio-y-alexandra.jpg" alt="Alexandra Bula y Sergio Fernández" loading="lazy" />
+</div>
+
 **Alexandra dirige la tienda**, que es la línea más grande de SUMA y la puerta de entrada de todo lo demás. Armar y sostener una tienda de artesanías es un oficio en sí mismo: la relación con los artesanos y proveedores que dejan su trabajo acá, el trato con quien entra, y sobre todo el ojo para saber qué producto tiene sentido en este lugar. Dirige también el estudio de yoga, con una década de enseñanza y formación certificada en kundalini yoga.
 
 **Sergio se ha mantenido en el oficio de la joyería** y con los años lo fue abriendo hacia la escultura en metal y la metalistería, que hoy trabaja en el taller junto con la platería, la producción de piezas y la formación de alumnos. Lleva la administración del proyecto, y escribe el fanzine.
