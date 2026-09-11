@@ -22,6 +22,8 @@ El trabajo se orienta a explorar la plasticidad del metal, las pátinas, la colo
 
 **Clases individuales.** Acompañamiento uno a uno, ajustado al proyecto de cada quien. {{joyeria.claseIndividual}}.
 
+Los precios incluyen los materiales y las herramientas. La plata y las piedras preciosas no están incluidas: se pueden adquirir en el taller.
+
 ## Te llevas lo que hiciste
 
 Al terminar una clase, la pieza es tuya.
