@@ -19,4 +19,4 @@ Muestras en el espacio, y obra de artistas que trabajan cerca en las paredes dur
 
 ## Club de lectura
 
-Nació en SUMA con la idea de armar un espacio de conversación en lugar de una cátedra. Hoy se reúne en la librería Tinta y Tiempo, que es el sitio natural para un club de lectura. Sigue siendo parte del proyecto, ahora en colaboración.
+Nació en SUMA con la idea de armar un espacio de conversación en lugar de una cátedra. Hoy se reúne en la librería Tinta y Tiempo, en el Paseo Hygge, que es el sitio natural para un club de lectura. Sigue siendo parte del proyecto, ahora en colaboración.
