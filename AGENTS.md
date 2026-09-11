@@ -201,9 +201,32 @@ Los originales viven fuera del repositorio, en
 `git push` a `main` dispara GitHub Actions, que compila y publica en GitHub
 Pages. El dominio se resuelve con `public/CNAME`.
 
+El run tarda entre 30 y 100 segundos. Para comprobar el resultado, usar `curl`
+o recargar sin caché: el navegador sigue sirviendo la versión anterior de la
+página y del CSS un rato después de que el despliegue ya terminó, y parece que
+el cambio no se hubiera publicado.
+
+## Alineación
+
+Dos anchos de columna, y ninguno se mezcla con el otro dentro de una misma
+página:
+
+- **Páginas de contenido** (`[pagina].astro` y la ficha de un taller): el texto
+  va en la columna `.article`, de 820 px centrada en el contenedor. **El `h1`
+  va dentro de esa misma columna**, junto con las imágenes, la tabla de datos y
+  el texto. Un título suelto en el contenedor queda pegado a la izquierda, a
+  166 px del texto, y se ve descolgado.
+- **Páginas de listado** (`index`, `talleres`, `agenda`, `yoga`): todo al borde
+  del contenedor, sin columna propia.
+
+Las tablas de datos (`.meta-table`) son `<table>` de verdad, con `th` y `td`.
+La etiqueta va en una columna de 160 px, alineada arriba con su valor, y en
+pantalla angosta la etiqueta pasa arriba del valor.
+
 ## Convenciones
 
 - Todo el contenido en español.
 - Fechas en formato ISO `AAAA-MM-DD`.
 - Sin comentarios en el código salvo que se pidan.
 - Nunca tocar `dist/` ni `node_modules/`.
+- Tuteo, nunca voseo: «Mira la agenda», no «Mirá la agenda».
