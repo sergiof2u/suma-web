@@ -88,6 +88,18 @@ administrativo.**
 El menú vive en `src/site.ts`. La convocatoria para artesanos y talleristas va
 solo en el pie, porque les habla a ellos y no a clientes.
 
+### La portada
+
+Las tarjetas de la portada están en el arreglo `bloques` de
+`src/pages/index.astro`, en el orden del negocio. Cada una acepta `ancha: true`
+—ocupa la fila entera, y hoy la lleva la tienda, que es el 77 % del ingreso— y
+`foto` con su `alt`, que pintan la imagen dentro de `.card-media`. Sin `foto` la
+tarjeta sale solo con texto: hoy no hay fotos de la tienda ni de los talleres.
+
+La rejilla es `.grid--portada`: tres columnas en pantalla ancha y una sola por
+debajo de 1000 px. No volver a meter cuatro tarjetas en una rejilla de tres: la
+cuarta queda sola abajo y deja dos tercios de la fila vacíos.
+
 ---
 
 ## Estructura del contenido
