@@ -1,7 +1,12 @@
 ---
 title: Tienda
 descripcion: Tienda de joyería artesanal y productos de artesanos y productores de la región, en el Paseo Hygge, Subachoque.
+imagen: /fotos/tienda/tienda-02.jpg
 ---
+
+<div class="article-hero">
+  <img src="/fotos/tienda/tienda-02.jpg" alt="" />
+</div>
 
 En SUMA hay una tienda de productos artesanales. Conviven ahí las piezas de joyería que salen de nuestro taller y el trabajo de artesanos colombianos y productores de la región.
 
@@ -18,3 +23,12 @@ También recibimos encargos. Unas argollas de matrimonio, un anillo con una pied
 En la tienda está además Resplandor, el ron artesanal de caña panelera que producimos.
 
 Para conocer la tienda hay que venir. Estamos en el Paseo Hygge, en Subachoque.
+
+<div class="gallery">
+  <figure><img src="/fotos/tienda/tienda-03.jpg" alt="" loading="lazy" /></figure>
+  <figure><img src="/fotos/tienda/tienda-05.jpg" alt="" loading="lazy" /></figure>
+  <figure><img src="/fotos/tienda/tienda-06.jpg" alt="" loading="lazy" /></figure>
+  <figure><img src="/fotos/tienda/tienda-07.jpg" alt="" loading="lazy" /></figure>
+  <figure><img src="/fotos/tienda/tienda-08.jpg" alt="" loading="lazy" /></figure>
+  <figure><img src="/fotos/tienda/tienda-10.jpg" alt="" loading="lazy" /></figure>
+</div>
