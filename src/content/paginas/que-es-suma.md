@@ -9,7 +9,7 @@ SUMA es un lugar en Subachoque, Cundinamarca, en el Paseo Hygge, donde trabajan 
 
 SUMA lo fundaron Alexandra Bula y Sergio Fernández, y son ellos quienes lo sostienen día a día. Los dos vienen de la joyería, y ahí empezó todo.
 
-<div class="article-hero article-hero--retrato">
+<div class="article-hero article-hero--vertical">
   <img src="/fotos/retratos/sergio-y-alexandra.jpg" alt="Alexandra Bula y Sergio Fernández" loading="lazy" />
 </div>
 
