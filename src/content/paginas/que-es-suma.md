@@ -5,6 +5,20 @@ descripcion: Un lugar de oficios en el Paseo Hygge, Subachoque, donde trabajan j
 
 SUMA es un lugar en Subachoque, Cundinamarca, en el Paseo Hygge, donde trabajan joyeros, artistas y artesanos. Adentro funcionan una tienda de productos artesanales, un taller de joyería, un estudio de yoga y meditación, un salón donde se dictan talleres de oficios y un cine club. Desde aquí también se publica un fanzine y se produce Resplandor, un ron artesanal de caña panelera.
 
+## Quiénes lo sostienen
+
+SUMA lo fundaron Alexandra Bula y Sergio Fernández, y son ellos quienes lo sostienen día a día. Los dos vienen de la joyería, y ahí empezó todo.
+
+<div class="article-hero article-hero--retrato">
+  <img src="/fotos/retratos/sergio-y-alexandra.jpg" alt="Alexandra Bula y Sergio Fernández" loading="lazy" />
+</div>
+
+**Alexandra dirige la tienda**, que es la línea más grande de SUMA y la puerta de entrada de todo lo demás. Armar y sostener una tienda de artesanías es un oficio en sí mismo: la relación con los artesanos y proveedores que dejan su trabajo acá, el trato con quien entra, y sobre todo el ojo para saber qué producto tiene sentido en este lugar. Dirige también el estudio de yoga, con una década de enseñanza y formación certificada en kundalini yoga.
+
+**Sergio se ha mantenido en el oficio de la joyería** y con los años lo fue abriendo hacia la escultura en metal y la metalistería, que hoy trabaja en el taller junto con la platería, la producción de piezas y la formación de alumnos. Lleva la administración del proyecto, y escribe el fanzine.
+
+Buena parte de lo que es SUMA se explica por ahí: las líneas que sostienen el lugar son, antes que nada, lo que cada uno sabe hacer. Lo demás fue creciendo alrededor.
+
 La lista puede parecer dispersa. La une una manera de trabajar.
 
 ## Los oficios
@@ -20,20 +34,6 @@ Lo que reúne todo lo que pasa acá cabe en una frase: **se trabaja con las mano
 Enseñar es la otra mitad del oficio. Un saber que no se transmite se acaba con quien lo tiene, y los oficios que trabajamos acá llegaron hasta nosotros porque alguien se tomó el trabajo de enseñarlos.
 
 Por eso las clases no son un ingreso adicional al taller: son parte de lo que el taller es. Se enseña en la misma mesa donde se produce, con las mismas herramientas, y quien aprende se lleva la pieza que hizo. Transmitir lo aprendido es un compromiso con los maestros y con quienes vienen después.
-
-## Quiénes lo sostienen
-
-SUMA lo fundaron Alexandra Bula y Sergio Fernández, y son ellos quienes lo sostienen día a día. Los dos vienen de la joyería, y ahí empezó todo.
-
-<div class="article-hero article-hero--retrato">
-  <img src="/fotos/retratos/sergio-y-alexandra.jpg" alt="Alexandra Bula y Sergio Fernández" loading="lazy" />
-</div>
-
-**Alexandra dirige la tienda**, que es la línea más grande de SUMA y la puerta de entrada de todo lo demás. Armar y sostener una tienda de artesanías es un oficio en sí mismo: la relación con los artesanos y proveedores que dejan su trabajo acá, el trato con quien entra, y sobre todo el ojo para saber qué producto tiene sentido en este lugar. Dirige también el estudio de yoga, con una década de enseñanza y formación certificada en kundalini yoga.
-
-**Sergio se ha mantenido en el oficio de la joyería** y con los años lo fue abriendo hacia la escultura en metal y la metalistería, que hoy trabaja en el taller junto con la platería, la producción de piezas y la formación de alumnos. Lleva la administración del proyecto, y escribe el fanzine.
-
-Buena parte de lo que es SUMA se explica por ahí: las líneas que sostienen el lugar son, antes que nada, lo que cada uno sabe hacer. Lo demás fue creciendo alrededor.
 
 ## De esto vivimos
 
