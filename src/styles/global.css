@@ -432,6 +432,14 @@ h3 { font-size: 1.35rem; }
   max-width: 300px;
   margin: 2rem auto 2.5rem;
 }
+/* Un retrato vertical de verdad, que sí tiene resolución propia. A 2:3, dejarlo
+   llegar al ancho de la columna lo lleva a más de mil píxeles de alto y tapa el
+   texto: se limita a 420 px, media columna, y se centra. El archivo se guarda al
+   doble de ese ancho (840 px), que es lo que necesita una pantalla densa. */
+.article-hero--vertical {
+  max-width: 420px;
+  margin: 2rem auto 2.5rem;
+}
 .article-hero img {
   width: 100%;
   border-radius: var(--radius);

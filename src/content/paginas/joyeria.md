@@ -45,7 +45,7 @@ De un disco de metal a una pieza terminada. Recocer para que el metal ceda, mart
 
 ## Quién enseña
 
-<div class="article-hero">
+<div class="article-hero article-hero--vertical">
   <img src="/fotos/joyeria/sergio-en-la-mesa.jpg" alt="Sergio Fernández en la mesa de trabajo" loading="lazy" />
 </div>
 
