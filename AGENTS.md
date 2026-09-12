@@ -100,6 +100,12 @@ La rejilla es `.grid--portada`: tres columnas en pantalla ancha y una sola por
 debajo de 1000 px. No volver a meter cuatro tarjetas en una rejilla de tres: la
 cuarta queda sola abajo y deja dos tercios de la fila vacíos.
 
+La portada tiene tres piezas y no más: encabezado, tarjetas y «Próximas
+fechas». Los dos únicos botones son «Ver la agenda» y «Cómo llegar»: no repetir
+la agenda dentro de «Próximas fechas». Los proyectos comunitarios —fanzine, cine
+club, exposiciones y club de lectura— **no se listan en la portada**; viven en
+«Qué es SUMA», y el cine club además en la agenda.
+
 ---
 
 ## Estructura del contenido
