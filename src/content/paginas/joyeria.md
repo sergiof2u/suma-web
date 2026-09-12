@@ -34,13 +34,12 @@ La pieza de la vitrina va a tener mejor terminado, porque la hizo alguien que ll
 
 ## Cómo se ve el proceso
 
-De un disco de metal a una pieza terminada. Recocer para que el metal ceda, martillar, levantar la forma sobre el yunque, y afinar hasta que quede.
+De una barra de plata a una pulsera terminada. Forjar a martillo para darle la forma, pulir hasta quitar las marcas del trabajo, y terminar el acabado.
 
 <div class="gallery">
-  <figure><img src="/fotos/joyeria/recocido.jpg" alt="Recocido con soplete" loading="lazy" /></figure>
-  <figure><img src="/fotos/joyeria/disco-de-cobre.jpg" alt="Disco de cobre sobre el yunque" loading="lazy" /></figure>
-  <figure><img src="/fotos/joyeria/levantado.jpg" alt="Levantando la forma a martillo" loading="lazy" /></figure>
-  <figure><img src="/fotos/joyeria/cuchara-terminada.jpg" alt="La pieza terminada" loading="lazy" /></figure>
+  <figure><img src="/fotos/joyeria/forjando-la-pulsera.jpg" alt="Forjando la pulsera a martillo" loading="lazy" /></figure>
+  <figure><img src="/fotos/joyeria/puliendo-la-pulsera.jpg" alt="Puliendo la pulsera" loading="lazy" /></figure>
+  <figure><img src="/fotos/joyeria/pulsera-terminada.jpg" alt="La pulsera terminada, en plata 925" loading="lazy" /></figure>
 </div>
 
 ## Quién enseña
