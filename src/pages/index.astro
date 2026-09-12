@@ -5,6 +5,10 @@ import { site } from '../site';
 
 const proximos = (await proximosTalleres()).slice(0, 4);
 
+// Las tarjetas de la portada, en el orden real del negocio: la tienda es el
+// 77 % del ingreso y va sola, en la fila entera. Las otras tres líneas van
+// debajo. `foto` solo la tienen las que hoy tienen imagen: de la tienda y de
+// los talleres todavía no hay ninguna.
 const bloques = [
   {
     href: '/tienda/',
@@ -12,6 +16,7 @@ const bloques = [
     texto:
       'Piezas de joyería hechas en nuestro taller, productos para el cuidado personal elaborados por otros artesanos y el trabajo de productores de la región. Cantidades pequeñas, materiales nobles y procesos que podemos explicar uno por uno.',
     enlace: 'Ver la tienda',
+    ancha: true,
   },
   {
     href: '/joyeria/',
@@ -19,13 +24,17 @@ const bloques = [
     texto:
       'Talleres de un día, cursos trimestrales y clases individuales, en el mismo taller donde se produce. De una clase se sale con una pieza terminada y hecha por uno mismo.',
     enlace: 'Conocer el estudio',
+    foto: '/fotos/joyeria/cuchara-terminada.jpg',
+    alt: 'Una cuchara de cobre terminada, hecha en el taller',
   },
   {
     href: '/yoga/',
     titulo: 'Estudio de yoga y meditación',
     texto:
       'Clases regulares de yoga con Alexandra, formada y certificada en kundalini yoga. El grupo de meditación se reúne los martes por la mañana, es gratuito y abierto, sin marco religioso.',
-    enlace: 'Horarios y prácticas',
+    enlace: 'Ver las clases',
+    foto: '/fotos/yoga/practica-arbol.jpg',
+    alt: 'Dos personas en la postura del árbol durante una clase',
   },
   {
     href: '/talleres/',
@@ -61,9 +70,18 @@ const bloques = [
 
   <section class="section">
     <div class="container">
-      <div class="grid grid--2">
+      <div class="grid grid--portada">
         {bloques.map((b) => (
-          <a class="card card-link" href={b.href} style="text-decoration:none; color:inherit;">
+          <a
+            class={`card card-link${'ancha' in b && b.ancha ? ' card--ancha' : ''}`}
+            href={b.href}
+            style="text-decoration:none; color:inherit;"
+          >
+            {'foto' in b && b.foto && (
+              <div class="card-media">
+                <img src={b.foto} alt={b.alt} loading="lazy" />
+              </div>
+            )}
             <div class="card-body">
               <h3>{b.titulo}</h3>
               <p>{b.texto}</p>

@@ -270,6 +270,19 @@ h3 { font-size: 1.35rem; }
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
+/* La portada. Las cuatro tarjetas en una rejilla de tres dejaban una sola abajo,
+   con dos tercios de la fila vacíos. Ahora la tienda ocupa la fila entera —es el
+   77 % del ingreso y el resto se reparte— y las otras tres líneas van debajo, en
+   partes iguales. En pantalla angosta todo baja a una columna. */
+.grid--portada {
+  grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 1000px) {
+  .grid--portada {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Cards */
 .card {
   background: var(--surface);
@@ -303,6 +316,25 @@ h3 { font-size: 1.35rem; }
   gap: 0.4rem;
   flex: 1;
 }
+/* La tarjeta ancha de la portada: la tienda. Fondo propio y el texto en una
+   medida legible, para que se lea como la línea principal y no como una banda. */
+.card--ancha {
+  grid-column: 1 / -1;
+  background: var(--bg-soft);
+}
+.card--ancha .card-body {
+  max-width: 62ch;
+  padding: 2.25rem 2.4rem;
+  gap: 0.7rem;
+}
+.card--ancha .card-body h3 {
+  font-size: 1.6rem;
+}
+@media (max-width: 600px) {
+  .card--ancha .card-body {
+    padding: 1.6rem 1.5rem;
+  }
+}
 .card-body h3 {
   margin: 0;
   font-size: 1.25rem;
@@ -317,6 +349,11 @@ h3 { font-size: 1.35rem; }
   margin: 0;
   color: var(--ink-soft);
   font-size: 0.95rem;
+}
+/* La etiqueta de la tarjeta se apoya en el borde de abajo, para que las tres
+   queden a la misma altura aunque los textos tengan distinto largo. */
+.card-body .card-meta {
+  margin-top: auto;
 }
 .card-link {
   margin-top: auto;
