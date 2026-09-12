@@ -320,10 +320,14 @@ h3 { font-size: 1.35rem; }
   flex: 1;
 }
 /* La tarjeta ancha de la portada: la tienda. Fondo propio y el texto en una
-   medida legible, para que se lea como la línea principal y no como una banda. */
+   medida legible, para que se lea como la línea principal y no como una banda.
+   La foto va a un costado, a un tamaño parecido al de las otras tarjetas: a
+   toda la fila se veía enorme y la vertical se comía el resto. */
 .card--ancha {
   grid-column: 1 / -1;
   background: var(--bg-soft);
+  display: grid;
+  grid-template-columns: 440px 1fr;
 }
 .card--ancha .card-body {
   max-width: 62ch;
@@ -604,6 +608,8 @@ h3 { font-size: 1.35rem; }
 }
 
 @media (max-width: 800px) {
+  .card--ancha { grid-template-columns: 1fr; }
+
   .list-item { grid-template-columns: 1fr; gap: 1rem; }
   .list-item-media { aspect-ratio: 16 / 10; }
   .contact-grid { grid-template-columns: 1fr; gap: 1rem; }
