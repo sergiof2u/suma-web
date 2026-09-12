@@ -5,7 +5,7 @@ export const site = {
   nombre: 'SUMA',
   tagline: 'Joyeros, artistas y artesanos en un mismo lugar',
   descripcion:
-    'Joyeros, artistas y artesanos en un mismo lugar. Vendemos lo que hacemos, enseñamos el oficio y practicamos yoga. Promovemos economías locales. Paseo Hygge, Subachoque, Cundinamarca.',
+    'Joyeros, artistas y artesanos en un mismo lugar. Vendemos lo que hacemos, enseñamos el oficio de la joyería y practicamos yoga. Promovemos economías locales. Paseo Hygge, Subachoque, Cundinamarca.',
 
   // Contacto
   whatsapp: '573164142904',
