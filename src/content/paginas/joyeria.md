@@ -53,3 +53,5 @@ Sergio Fernández estudió música y joyería, y ha hecho cursos de especializac
 Ha vivido del oficio desde 1994, más de tres décadas dedicadas a la orfebrería, participando en ferias, eventos y exposiciones de arte y artesanía en Colombia y en el exterior. Ha dictado cursos de pátinas y de fundición prehispánica y forja en la Escuela Pamela de la Fuente de Santiago de Chile, en Materia Prima de Bogotá y en Estudio Joya de Buenos Aires.
 
 Sobre enseñar, lo dice él mismo: transmitir el conocimiento aprendido es un placer, un compromiso con los maestros y la tradición del oficio, y un deber con las generaciones que vienen.
+
+Su trabajo está en <a href="https://sergiofernandezorfebre.com" target="_blank" rel="noopener">sergiofernandezorfebre.com</a>.
