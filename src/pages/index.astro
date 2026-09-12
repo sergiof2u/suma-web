@@ -7,8 +7,7 @@ const proximos = (await proximosTalleres()).slice(0, 4);
 
 // Las tarjetas de la portada, en el orden real del negocio: la tienda es el
 // 77 % del ingreso y va sola, en la fila entera. Las otras tres líneas van
-// debajo. `foto` solo la tienen las que hoy tienen imagen: de la tienda y de
-// los talleres todavía no hay ninguna.
+// debajo. Las cuatro tienen foto.
 const bloques = [
   {
     href: '/tienda/',
@@ -16,6 +15,8 @@ const bloques = [
     texto:
       'Piezas de joyería hechas en nuestro taller, productos para el cuidado personal elaborados por otros artesanos y el trabajo de productores de la región. Cantidades pequeñas, materiales nobles y procesos que podemos explicar uno por uno.',
     enlace: 'Ver la tienda',
+    foto: '/fotos/tienda/tienda-03-tarjeta.jpg',
+    alt: '',
     ancha: true,
   },
   {
@@ -42,6 +43,8 @@ const bloques = [
     texto:
       'Encuadernación, tejido, bordado, cocina y otros oficios y prácticas, casi siempre en fin de semana, dictados por talleristas invitados. Se sale con algo hecho a mano.',
     enlace: 'Ver los talleres',
+    foto: '/fotos/talleres/taller-04.jpg',
+    alt: '',
   },
 ];
 ---
