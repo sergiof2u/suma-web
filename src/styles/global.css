@@ -571,7 +571,11 @@ h3 { font-size: 1.35rem; }
 }
 
 /* Responsive */
-@media (max-width: 800px) {
+/* El menú completo (siete ítems) necesita unos 1050 px para caber cómodo en
+   una línea; por debajo de ese ancho el texto se parte en dos líneas dentro
+   de la barra. Por eso la hamburguesa entra desde 1023 px. Medido el
+   2026-09-12: a 1024 px cabe con aire (24 px), a 1020 px ya se partía. */
+@media (max-width: 1023px) {
   .nav-list {
     display: none;
     position: absolute;
@@ -587,7 +591,9 @@ h3 { font-size: 1.35rem; }
   .nav-list.is-open { display: flex; }
   .nav-list a { padding: 0.7rem 0; }
   .nav-toggle { display: block; }
+}
 
+@media (max-width: 800px) {
   .list-item { grid-template-columns: 1fr; gap: 1rem; }
   .list-item-media { aspect-ratio: 16 / 10; }
   .contact-grid { grid-template-columns: 1fr; gap: 1rem; }

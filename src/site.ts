@@ -20,8 +20,9 @@ export const site = {
 
 export const whatsappUrl = `https://wa.me/${site.whatsapp}`;
 
-// Menú principal. La capa 1 en el orden real de ingresos, y dos utilidades
-// de navegación al final. Ver 5 ARQUITECTURA Y POSICIONAMIENTO en el vault.
+// Menú principal. La capa 1 en el orden real de ingresos, después las dos
+// utilidades de navegación (Agenda y Visitar) y al final la página de
+// identidad. Ver 5 ARQUITECTURA Y POSICIONAMIENTO en el vault.
 export const nav = [
   { href: '/tienda/', label: 'Tienda' },
   { href: '/joyeria/', label: 'Estudio de joyería' },
@@ -29,11 +30,11 @@ export const nav = [
   { href: '/talleres/', label: 'Talleres' },
   { href: '/agenda/', label: 'Agenda' },
   { href: '/visitar/', label: 'Visitar' },
+  { href: '/que-es-suma/', label: 'Qué es SUMA' },
 ] as const;
 
 // Enlaces del pie. La convocatoria va solo acá: les habla a artesanos y
 // talleristas, no a clientes.
 export const navPie = [
-  { href: '/que-es-suma/', label: 'Qué es SUMA' },
   { href: '/convocatoria/', label: 'Convocatoria para artesanos y talleristas' },
 ] as const;
