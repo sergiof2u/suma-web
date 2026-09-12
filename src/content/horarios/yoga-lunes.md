@@ -4,6 +4,6 @@ dia: lunes
 hora: 6:30 a. m.
 lugar: Virtual
 precioClave: yoga.clasesuelta
-descripcion: Clase virtual, por videollamada.
+descripcion: Clase virtual, por Zoom.
 orden: 1
 ---
