@@ -596,6 +596,13 @@ h3 { font-size: 1.35rem; }
   .nav-toggle { display: block; }
 }
 
+/* En pantalla angosta la ventana del encabezado es más vertical que la foto y
+   recorta los lados: el letrero SUMA queda del lado derecho de la foto, así
+   que ahí se encuadra. En escritorio se sigue mostrando la franja de arriba. */
+@media (max-width: 1023px) {
+  .hero-media img { object-position: right top; }
+}
+
 @media (max-width: 800px) {
   .list-item { grid-template-columns: 1fr; gap: 1rem; }
   .list-item-media { aspect-ratio: 16 / 10; }
