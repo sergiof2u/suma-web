@@ -10,7 +10,7 @@ export const site = {
   // Contacto
   whatsapp: '573164142904',
   whatsappVisible: '316 414 2904',
-  email: '',
+  email: 'hola@sumaensubachoque.com',
   instagram: 'suma_en_subachoque',
 
   // Ubicación
