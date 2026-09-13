@@ -27,4 +27,4 @@ Casa El Abrazo es nuestra cabaña de alquiler, construida por Sergio en estructu
 
 ## Escríbenos
 
-Por WhatsApp al 316 414 2904, o por Instagram en [@suma_en_subachoque](https://instagram.com/suma_en_subachoque).
+Por WhatsApp al 316 414 2904, por correo a [hola@sumaensubachoque.com](mailto:hola@sumaensubachoque.com), o por Instagram en [@suma_en_subachoque](https://instagram.com/suma_en_subachoque).
