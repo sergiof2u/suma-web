@@ -26,7 +26,7 @@ Para conocer la tienda hay que venir. Estamos en el Paseo Hygge, en Subachoque.
 
 <div class="gallery">
   <figure><img src="/fotos/tienda/tienda-03.jpg" alt="" loading="lazy" /></figure>
-  <figure><img src="/fotos/tienda/tienda-05.jpg" alt="" loading="lazy" /></figure>
+  <figure><img src="/fotos/tienda/tienda-11.jpg" alt="" loading="lazy" /></figure>
   <figure><img src="/fotos/tienda/tienda-06.jpg" alt="" loading="lazy" /></figure>
   <figure><img src="/fotos/tienda/tienda-07.jpg" alt="" loading="lazy" /></figure>
   <figure><img src="/fotos/tienda/tienda-08.jpg" alt="" loading="lazy" /></figure>
