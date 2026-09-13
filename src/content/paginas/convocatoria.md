@@ -3,8 +3,8 @@ title: Convocatoria para artesanos y talleristas
 descripcion: Convocatoria abierta a artesanos y productores que quieran dejar su trabajo en la tienda de SUMA, y a talleristas que quieran dictar en su salón. Paseo Hygge, Subachoque, Cundinamarca.
 ---
 
-<div class="article-hero article-hero--vertical">
-  <img src="/fotos/talleres/taller-14.jpg" alt="" />
+<div class="article-hero">
+  <img src="/fotos/talleres/taller-14-horizontal.jpg" alt="" />
 </div>
 
 SUMA es un lugar de oficios en el Paseo Hygge, en Subachoque. Adentro funcionan una tienda de productos artesanales, un taller de joyería con clases, un estudio de yoga y meditación, y un salón donde se dictan talleres.
