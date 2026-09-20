@@ -25,9 +25,9 @@ La lista puede parecer dispersa. La une una manera de trabajar.
 
 Todo lo que ocurre en SUMA tiene la forma de un oficio: atención sostenida en el tiempo, conocimiento que no se separa del cuerpo ni del entorno, pensamiento que ocurre mientras se hace.
 
-Eso pasa igual cuando se suelda una argolla de plata, cuando se cose el lomo de una libreta, cuando se controla la temperatura de un alambique o cuando se sostiene la respiración en una postura. Cambia la materia, se repite el gesto de fondo. Por eso la joyería, la cocina, la encuadernación, el yoga y la destilación conviven en el mismo lugar sin que haya que explicar mucho: son variaciones de una misma práctica.
+Eso pasa igual cuando se suelda una argolla de plata, cuando se cose el lomo de una libreta, cuando se controla la temperatura de un alambique o cuando se sostiene la respiración en una postura. Cambia la materia, se repite el gesto de fondo. Por eso la joyería, el tejido, la encuadernación, el yoga y la destilación conviven en el mismo lugar sin que haya que explicar mucho: son variaciones de una misma práctica.
 
-Lo que reúne todo lo que pasa acá cabe en una frase: **se trabaja con las manos, con el cuerpo o con la atención.** Ahí caben la orfebrería y el tejido, la encuadernación y la meditación, la cocina y el yoga. Quien viene a SUMA viene a aprender algo, a descubrir un oficio o a practicar, y esa es la medida de lo que hacemos y de lo que alojamos.
+Lo que reúne todo lo que pasa acá cabe en una frase: **se trabaja con las manos, con el cuerpo o con la atención.** Ahí caben la orfebrería y el tejido, la encuadernación y la meditación, el bordado y el yoga. Quien viene a SUMA viene a aprender algo, a descubrir un oficio o a practicar, y esa es la medida de lo que hacemos y de lo que alojamos.
 
 ## Enseñar
 
@@ -63,7 +63,7 @@ Subachoque es el sitio donde esto tiene sentido. Un taller pequeño en un munici
 
 El taller de joyería produce piezas y forma alumnos, en cursos trimestrales, clases individuales y talleres cortos. La tienda reúne esa producción con la de otros artesanos. El estudio de yoga sostiene el trabajo con el cuerpo, y el grupo de meditación de los martes sostiene el trabajo con la atención, que es la base de todo lo demás.
 
-Los talleres de fin de semana abren el espacio a otros oficios y a otras prácticas, con talleristas invitados que traen lo suyo: encuadernación, tejido, bordado, cocina, trabajo con el cuerpo y la conciencia. Cada quien enseña a su manera y con sus palabras. Lo que pedimos es que se haga algo con las manos, con el cuerpo o con la atención.
+Los talleres de fin de semana abren el espacio a otros oficios y a otras prácticas, con talleristas invitados que traen lo suyo: encuadernación, tejido, bordado, trabajo con el cuerpo y la conciencia. Cada quien enseña a su manera y con sus palabras. Lo que pedimos es que se haga algo con las manos, con el cuerpo o con la atención.
 
 El cine club propone aprender a mirar. El día, la hora y el valor están en la [agenda](/agenda/).
 
