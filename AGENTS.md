@@ -202,6 +202,33 @@ Los originales viven fuera del repositorio, en
 
 ---
 
+## Tipografías
+
+Dos familias, y ninguna más: **Cormorant Garamond** para los títulos y
+**Jost** para el texto corrido y las etiquetas. Las dos son de Google Fonts,
+con licencia OFL.
+
+Se cargan en `src/layouts/Base.astro`, en una sola etiqueta `<link>` que pide
+Cormorant Garamond en 400, 500 y 600, y Jost en 300, 400 y 500. Pedir un peso
+que no esté en esa lista hace que el navegador lo simule engordando el trazo,
+y se nota. Si hace falta un peso nuevo, se agrega ahí primero.
+
+En el CSS no se escribe el nombre de la fuente: se usan los tokens `--serif`
+y `--sans` de `src/styles/global.css`, que ya traen su cadena de respaldo
+(Georgia y Segoe UI). Una familia escrita a mano en una regla suelta se queda
+por fuera cuando la marca cambie de tipografía.
+
+**Las piezas gráficas también van en estas dos.** Volantes, avisos y posts
+para redes se componen en Cormorant Garamond y Jost, y por eso las fuentes
+están instaladas en el computador de SUMA, además de cargarse en el sitio.
+Los archivos de esas piezas viven en
+`F:\OneDrive\1.SUMA LOCAL HYGGE\WEB SUMA\05 MATERIAL PARA PUBLICIDAD\`, y las
+notas de identidad, en `03 LOGO E IDENTIDAD`. Una pieza armada en un
+computador que no tenga las fuentes instaladas sale en Georgia y Segoe UI sin
+avisar de nada.
+
+---
+
 ## Pasos para agregar un taller
 
 1. Guardar la foto en `src/assets/talleres/`.
