@@ -51,23 +51,29 @@ const bloques = [
 
 <Base>
   <section class="hero">
-    <div class="hero-media">
-      <img src="/fotos/portada/portada-2.jpg" alt="" />
-    </div>
-    <div class="hero-overlay"></div>
-    <div class="container">
-      <p class="eyebrow">{site.lugar}</p>
-      <h1 class="hero-logo">
-        <img src="/logo-suma.png" alt={site.nombre} />
-      </h1>
-      <p class="tagline">
-        Joyeros, artistas y artesanos en un mismo lugar. Vendemos lo que hacemos, enseñamos el
-        oficio de la joyería y practicamos yoga. Promovemos economías locales.
-      </p>
-      <p style="margin-top: 2rem;">
-        <a class="btn" href="/agenda/">Ver la agenda</a>
-        <a class="btn" href="/visitar/" style="margin-left: 0.75rem;">Cómo llegar</a>
-      </p>
+    <div class="container hero-grid">
+      <div class="hero-texto">
+        <p class="eyebrow">{site.lugar}</p>
+        <h1 class="hero-logo">
+          <img src="/logo-suma.png" alt={site.nombre} />
+        </h1>
+        <p class="tagline">
+          Joyeros, artistas y artesanos en un mismo lugar. Vendemos lo que hacemos, enseñamos el
+          oficio de la joyería y practicamos yoga. Promovemos economías locales.
+        </p>
+        <p class="hero-botones">
+          <a class="btn" href="/agenda/">Ver la agenda</a>
+          <a class="btn" href="/visitar/">Cómo llegar</a>
+        </p>
+      </div>
+      <figure class="hero-media">
+        <img
+          src="/fotos/portada/portada-2.jpg"
+          alt="La entrada de SUMA en el Paseo Hygge: la vitrina de joyería a la izquierda y, por la puerta, la tienda y el taller"
+          width="1600"
+          height="1204"
+        />
+      </figure>
     </div>
   </section>
 

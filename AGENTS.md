@@ -200,6 +200,13 @@ a Subachoque.
 Los originales viven fuera del repositorio, en
 `F:\OneDrive\1.SUMA LOCAL HYGGE\WEB SUMA\01 FOTOS\`.
 
+**Las fotos se ven con el brillo del archivo.** Nada encima: ni velo, ni
+degradado, ni `opacity`, ni `filter`. El texto va al lado o debajo, nunca sobre
+la foto. La portada estuvo un tiempo con un velo oscuro y opacidad al 82 %, y
+se intentó compensar aclarando el JPG dos veces; la foto seguía apagada porque
+la causa estaba en el CSS. Si una foto se ve oscura, se busca primero ahí, y el
+archivo que se sube es el de la carpeta de originales, sin retocar.
+
 ---
 
 ## Tipografías
