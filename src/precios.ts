@@ -1,7 +1,7 @@
 // Precios. Viven acá una sola vez y se traen a donde hagan falta.
 //
-// Regla del proyecto: los precios van a la vista, nunca "consultar por
-// interno". Lo gratuito se nombra gratuito.
+// Regla del proyecto: no toda página lleva precio; se decide caso por caso.
+// Cuando va, sale de este archivo. Lo gratuito se nombra gratuito.
 //
 // Para actualizar un precio se cambia esta línea y cambia en todo el sitio.
 // Un precio en `null` se muestra como "por definir" y hay que llenarlo.

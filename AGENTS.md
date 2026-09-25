@@ -48,9 +48,11 @@ tienda sea la línea más grande.
 
 ## Reglas de redacción
 
-**Los precios van a la vista.** Nunca "consultar por interno" ni "escríbenos
-para saber el valor". Si un precio todavía no está definido, se dice que está
-por definir.
+**El precio va cuando conviene.** Las actividades tienen un valor económico y
+eso no se disimula, pero no toda página ni toda pieza lleva precio: a veces sí y
+a veces no, y se decide caso por caso. Decisión de Sergio del 2026-09-25, que
+reemplaza la regla anterior de poner siempre los precios a la vista. La misma
+regla está en el vault, en `03 SUMA/CLAUDE.md`.
 
 **Lo gratuito se nombra gratuito**, y solo lo que efectivamente lo es. Hoy son
 dos cosas: el fanzine y el grupo de meditación de los martes.
