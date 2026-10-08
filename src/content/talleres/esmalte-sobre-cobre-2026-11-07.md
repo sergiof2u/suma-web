@@ -9,6 +9,7 @@ precio: $220.000
 incluye: Materiales, herramientas y refrigerio. Te llevas un dije y unos aretes esmaltados
 descripcion: Taller de esmalte sobre cobre en SUMA, Subachoque, el sábado 7 de noviembre, de 9:00 a. m. a 1:00 p. m. Haces un dije y unos aretes con tu símbolo.
 imagen: /fotos/talleres/esmalte/dos-collares.jpg
+cupo: 6 personas
 inscripcion: https://wa.me/573164142904
 ---
 
@@ -18,7 +19,7 @@ Es una mañana para tomarte un tiempo para ti. Dejas el teléfono a un lado, tra
 
 ## La técnica
 
-El esmalte es una capa vítrea que se funde sobre el metal y le da color y un brillo que dura. Es una de las técnicas más antiguas de la joyería. El taller es una introducción: conoces los materiales, preparas el cobre, aplicas el color, lo fundes y armas la pieza para usarla. Si te gusta la técnica, más adelante haremos talleres para profundizar en ella.
+El esmalte es una capa vítrea que se funde sobre el metal, entre 800 y 900 grados, y le da color y un brillo que dura. Es una de las técnicas más antiguas de la joyería. El taller es una introducción: conoces los materiales, preparas el cobre, aplicas el color, lo fundes y armas la pieza para usarla. Si te gusta la técnica, más adelante haremos talleres para profundizar en ella.
 
 <div class="gallery">
   <figure><img src="/fotos/talleres/esmalte/aplicando-el-esmalte.jpg" alt="Aplicando el esmalte sobre un disco de cobre" loading="lazy" /></figure>
@@ -37,6 +38,8 @@ Cada participante elige su símbolo y lo lleva a un dije y a un par de aretes. P
 </div>
 
 No necesitas experiencia previa. Te vas con tu dije y tus aretes, hechos con tus manos.
+
+Hay solo 6 cupos, así que es importante reservar con tiempo.
 
 ## Quién lo dicta
 
