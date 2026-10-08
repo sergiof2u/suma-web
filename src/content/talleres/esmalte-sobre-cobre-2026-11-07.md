@@ -5,7 +5,7 @@ fecha: 2026-11-07
 horario: 9:00 a. m. a 1:00 p. m.
 duracion: 4 horas
 lugar: SUMA, Paseo Hygge
-precio: $180.000
+precio: $220.000
 incluye: Materiales, herramientas y refrigerio. Te llevas un dije y unos aretes esmaltados
 descripcion: Taller de esmalte sobre cobre en SUMA, Subachoque, el sábado 7 de noviembre, de 9:00 a. m. a 1:00 p. m. Haces un dije y unos aretes con tu símbolo.
 imagen: /fotos/talleres/esmalte/dos-collares.jpg
