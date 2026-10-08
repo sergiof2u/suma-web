@@ -40,4 +40,4 @@ No necesitas experiencia previa. Te vas con tu dije y tus aretes, hechos con tus
 
 ## Quién lo dicta
 
-Carolina Passega y Sergio Fernández, en el estudio de joyería de SUMA.
+Carolina Passega ([@passega_joyas](https://www.instagram.com/passega_joyas/)) y Sergio Fernández, en el estudio de joyería de SUMA.
