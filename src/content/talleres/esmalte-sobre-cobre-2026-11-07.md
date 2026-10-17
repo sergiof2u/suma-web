@@ -10,6 +10,7 @@ incluye: Materiales, herramientas y refrigerio. Te llevas un dije y unos aretes 
 descripcion: Taller de esmalte sobre cobre en SUMA, Subachoque, el sábado 7 de noviembre, de 9:00 a. m. a 1:00 p. m. Haces un dije y unos aretes con tu símbolo.
 imagen: /fotos/talleres/esmalte/dos-collares.jpg
 cupo: 6 personas
+lleno: true
 inscripcion: https://wa.me/573164142904
 ---
 

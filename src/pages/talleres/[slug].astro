@@ -50,7 +50,7 @@ const yaPaso = (d.fechaFin ?? d.fecha) < hoy();
             <tr><th>Lugar</th><td>{d.lugar ?? site.lugar}</td></tr>
             <tr><th>Valor</th><td>{d.precio ?? 'Por definir'}</td></tr>
             {d.incluye && <tr><th>Incluye</th><td>{d.incluye}</td></tr>}
-            {d.cupo && <tr><th>Cupos</th><td>{d.cupo}</td></tr>}
+            {d.cupo && <tr><th>Cupos</th><td>{d.lleno ? `${d.cupo} · agotados` : d.cupo}</td></tr>}
           </tbody>
         </table>
 
@@ -74,7 +74,15 @@ const yaPaso = (d.fechaFin ?? d.fecha) < hoy();
           </div>
         )}
 
-        {!yaPaso && (
+        {!yaPaso && d.lleno && (
+          <p style="margin-top:2.5rem;">
+            Los cupos de este taller se agotaron. Si quieres ir al próximo,{' '}
+            <a href={whatsappUrl} target="_blank" rel="noopener">escríbenos por WhatsApp</a>
+            {' '}y te avisamos primero.
+          </p>
+        )}
+
+        {!yaPaso && !d.lleno && (
           <p style="margin-top:2.5rem;">
             <a class="btn btn--solid" href={d.inscripcion ?? whatsappUrl} target="_blank" rel="noopener">
               Reservar un cupo

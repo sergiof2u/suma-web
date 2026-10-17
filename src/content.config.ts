@@ -19,6 +19,7 @@ const talleres = defineCollection({
     lugar: z.string().optional(),
     precio: z.string().optional(),
     cupo: z.string().optional(),
+    lleno: z.boolean().default(false),
     // Qué se lleva la persona y qué está incluido en el precio.
     incluye: z.string().optional(),
     descripcion: z.string().optional(),

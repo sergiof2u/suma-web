@@ -35,7 +35,7 @@ const nombre = (id?: string) => talleristas.find((t) => t.id === id)?.data.nombr
                 {taller.data.tipo}
                 {nombre(taller.data.tallerista) ? ` · con ${nombre(taller.data.tallerista)}` : ''}
                 {' · '}
-                {taller.data.precio ?? 'Valor por definir'}
+                {taller.data.lleno ? 'Cupos agotados' : (taller.data.precio ?? 'Valor por definir')}
               </p>
             </div>
           </a>

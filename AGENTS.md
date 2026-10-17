@@ -129,8 +129,12 @@ es a propósito.
 ### talleres
 
 `title`, `tallerista`, `tipo`, `fecha`, `fechaFin`, `horario`, `duracion`,
-`lugar`, `precio`, `cupo`, `incluye`, `descripcion`, `imagen`, `galeria[]`,
+`lugar`, `precio`, `cupo`, `lleno`, `incluye`, `descripcion`, `imagen`, `galeria[]`,
 `inscripcion`, `publicado`.
+
+`lleno: true` marca el taller como de cupos agotados: la agenda, la portada y
+la lista de talleres dicen «Cupos agotados» en lugar del precio, y la ficha
+cambia el botón de reservar por una invitación a escribir para el próximo.
 
 `tallerista` vacío significa que lo dicta SUMA. Con valor, tiene que coincidir
 con el nombre de un archivo de `src/content/talleristas/`.
