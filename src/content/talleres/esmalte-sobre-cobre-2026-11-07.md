@@ -40,8 +40,18 @@ Cada participante elige su símbolo y lo lleva a un dije y a un par de aretes. P
 
 No necesitas experiencia previa. Te vas con tu dije y tus aretes, hechos con tus manos.
 
-Hay solo 6 cupos, así que es importante reservar con tiempo.
-
 ## Quién lo dicta
 
 Carolina Passega ([@passega_joyas](https://www.instagram.com/passega_joyas/)) y Sergio Fernández, en el estudio de joyería de SUMA.
+
+## Así fue
+
+El sábado 7 de noviembre las participantes se sentaron a la mesa con el horno encendido. Cada una recortó su esténcil, preparó el cobre, tamizó el esmalte, afinó los detalles a pincel y fundió la pieza a más de 800 grados. Salieron dijes y aretes, cada uno con el símbolo que eligió quien lo hizo: un loto, una paloma, un corazón con rayos.
+
+<div class="gallery">
+  <figure><img src="/fotos/talleres/esmalte/tamizando-el-esmalte.jpg" alt="Una mano sostiene un disco de cobre mientras se le esparce esmalte en polvo con una espátula" loading="lazy" /></figure>
+  <figure><img src="/fotos/talleres/esmalte/listas-para-el-horno.jpg" alt="Discos cubiertos de esmalte en verde, azul y blanco, sobre sus soportes, listos para entrar al horno" loading="lazy" /></figure>
+  <figure><img src="/fotos/talleres/esmalte/dijes-terminados.jpg" alt="Tres piezas terminadas: una paloma blanca y un loto amarillo sobre fondo negro, y un corazón con rayos sobre fondo ámbar" loading="lazy" /></figure>
+</div>
+
+Si quieres ir al próximo, [escríbenos por WhatsApp](https://wa.me/573164142904) y te avisamos primero.
