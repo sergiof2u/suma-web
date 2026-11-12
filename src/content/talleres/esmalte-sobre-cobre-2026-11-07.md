@@ -49,6 +49,12 @@ Carolina Passega ([@passega_joyas](https://www.instagram.com/passega_joyas/)) y 
 El sábado 7 de noviembre las participantes se sentaron a la mesa con el horno encendido. Cada una recortó su esténcil, preparó el cobre, tamizó el esmalte, afinó los detalles a pincel y fundió la pieza a más de 800 grados. Salieron dijes y aretes, cada uno con el símbolo que eligió quien lo hizo: un loto, una paloma, un corazón con rayos.
 
 <div class="gallery">
+  <figure><img src="/fotos/talleres/esmalte/participante-riendo.jpg" alt="Una participante ríe mientras trabaja una pieza con las manos, sentada a la mesa del taller" loading="lazy" /></figure>
+  <figure><img src="/fotos/talleres/esmalte/participante-en-la-mesa.jpg" alt="Una participante con gafas, sentada frente a los esmaltes y los esténciles" loading="lazy" /></figure>
+  <figure><img src="/fotos/talleres/esmalte/participantes-trabajando.jpg" alt="Dos participantes concentradas en sus piezas, una con un pincel en la mano" loading="lazy" /></figure>
+</div>
+
+<div class="gallery">
   <figure><img src="/fotos/talleres/esmalte/tamizando-el-esmalte.jpg" alt="Una mano sostiene un disco de cobre mientras se le esparce esmalte en polvo con una espátula" loading="lazy" /></figure>
   <figure><img src="/fotos/talleres/esmalte/listas-para-el-horno.jpg" alt="Discos cubiertos de esmalte en verde, azul y blanco, sobre sus soportes, listos para entrar al horno" loading="lazy" /></figure>
   <figure><img src="/fotos/talleres/esmalte/dijes-terminados.jpg" alt="Tres piezas terminadas: una paloma blanca y un loto amarillo sobre fondo negro, y un corazón con rayos sobre fondo ámbar" loading="lazy" /></figure>
