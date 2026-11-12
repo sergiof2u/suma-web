@@ -67,8 +67,9 @@ const nombre = (id?: string) => talleristas.find((t) => t.id === id)?.data.nombr
           <ul style="line-height:2; color:var(--ink-soft);">
             {pasados.map((taller) => (
               <li>
-                {taller.data.title}
+                <a href={`/talleres/${taller.id}/`}>{taller.data.title}</a>
                 {nombre(taller.data.tallerista) ? `, con ${nombre(taller.data.tallerista)}` : ''}
+                {` · ${formatearFechaTaller(taller.data.fecha, taller.data.fechaFin)}`}
               </li>
             ))}
           </ul>
