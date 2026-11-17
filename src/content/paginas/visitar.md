@@ -11,7 +11,9 @@ SUMA está en el Paseo Hygge, en Subachoque, Cundinamarca. La dirección es Cl. 
 
 ## Horarios
 
-Abrimos de miércoles a domingo y los festivos, de 11:00 a. m. a 6:00 p. m.
+Por la temporada de Navidad, abrimos todos los días, de 11:00 a. m. a 6:00 p. m.
+
+El resto del año abrimos de miércoles a domingo y los festivos, en el mismo horario.
 
 El grupo de meditación se reúne los martes por la mañana, fuera del horario de la tienda, y es gratuito. Los horarios de yoga están en la [página del estudio](/yoga/), y las fechas de talleres y el cine club, en la [agenda](/agenda/).
 
